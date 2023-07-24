@@ -1,0 +1,267 @@
+c,Region-subregion-country-area,Country-names-rworldmap,Country-code,Country-code-GeoDist,contact-noncontact,,,Type,Parent-code,Recommended-distance,Rec-distance-m,Rec-distance-m-and-f,Average-dist,Institution,website,date-of-access,First-Name,Last-Name,email,Notes,Population-density-2019,Population-density-2020
+25,Recommended-distance,SUB-SAHARAN AFRICA,947,947,,,,SDG region,1828,NAP,NAP,NAP,NAP,,,,,,,,48.7,50
+26,Eastern Africa,Eastern Africa,910,910,,,Le Parisien,Subregion,947,NAP,NAP,NAP,NAP,,,,,,,,65.1,66.8
+27,Burundi,Burundi,108,108,,,,Country/Area,910,1,1,1,1,,http://www.archidiocesedebujumbura.bi/?fr/at694/1,5/28/20,Virginie,Courtier,,,449,463
+28,Comoros,Comoros,174,174,,,,Country/Area,910,1,1,1,1,-,https://stopcoronavirus.km/,5/22/20,Virginie,Courtier,,,457.2,467.3
+29,Djibouti,Djibouti,262,262,,,,Country/Area,910,1,1,1,1,Ministère de la Santé,https://lanation.dj/point-de-presse-sur-la-situation-covid-19-le-08-avril-2020/,5/22/20,Virginie,Courtier,,,42,42.6
+30,Eritrea,Eritrea,232,232,,,,Country/Area,910,no physical distanciation,none,none,none,Ministry of Health,http://www.shabait.com/news/local-news/30342--ministry-of-health-public-guidelines-no-3,6/4/20,Virginie,Courtier,,,34.6,35.1
+31,Ethiopia,Ethiopia,231,231,,,,Country/Area,910,1 (3 feet),1,0.9,1,Adama AIDS Resource Center ,https://www.aarc.gov.et/,5/22/20,Virginie,Courtier,,1m with sick person,112.1,115
+32,Kenya,Kenya,404,404,,,,Country/Area,910,2,2,2,2,Ministry of Health,https://www.health.go.ke/,5/22/20,Virginie,Courtier,,2m with person with symptoms,92.4,94.5
+33,Madagascar,Madagascar,450,450,,,1,Country/Area,910,1,1,1,1,Government,http://www.sante.gov.mg/ministere-sante-publique/,5/28/20,Sarah,Taheraly,sarahtaheraly1@gmail.com,,46.4,47.6
+34,Malawi,Malawi,454,454,,,,Country/Area,910,1,1,1,1,President of the Republic of Malawi,https://www.manaonline.gov.mw/index.php/component/k2/item/13884-address-by-his-excellency-prof-arthur-peter-mutharika-president-of-the-republic-of-malawi-on-confirmed-coronavirus-cases,5/22/20,Virginie,Courtier,,,197.6,202.9
+35,Mauritius,Mauritius,480,480,,,,Country/Area,910,1,1,1,1,Ministère de la Santé et du Bien-être,https://covid19.mu/,5/22/20,Virginie,Courtier,,,625.5,626.5
+36,Mayotte,Mayotte,175,175,,1,,Country/Area,910,NA (part of France),NAP,NAP,NAP,Santé Publique France,https://www.mayotte.ars.sante.fr/system/files/2020-03/Infographie_Coronavirus_vdef_0.pdf,5/22/20,Virginie,Courtier,,,709.7,727.5
+37,Mozambique,Mozambique,508,508,,,,Country/Area,910,1,1,1,1,Governo de Moçambique,https://www.portaldogoverno.gov.mz/por/Imprensa/COVID19,,Virginie,Courtier,,,38.6,39.7
+38,Reunion,Reunion,638,638,,,,Country/Area,910,NA (part of France),NAP,NAP,NAP,,,,,,,,355.6,358.1
+39,Rwanda,Rwanda,646,646,,,,Country/Area,910,1,1,1,1,Ministère de la Santé,https://www.rbc.gov.rw/fileadmin/user_upload/annoucement/CV%20update%2028%20Mar%20Fre.pdf,5/23/20,Virginie,Courtier,,,511.8,525
+40,Seychelles,Seychelles,690,690,,,,Country/Area,910,1,1,1,1,Department of Health,http://www.health.gov.sc/index.php/covid-19/,5/22/20,Virginie,Courtier,,1m avec une personne malade,212.5,213.8
+41,Somalia,Somalia,706,706,,,,Country/Area,910,2,2,2,2,Ministry of Health,https://moh.gov.so/en/2020/04/11/how-often-should-you-visit-your-midwife/,5/22/20,Virginie,Courtier,,,24.6,25.3
+42,South Sudan,South Sudan,728,728,,,,Country/Area,910,1,1,1,1,-,https://radiotamazuj.org/en/news/article/covid-19-south-sudan-reviews-curfew-as-cases-rise-to-34,5/29/20,Virginie,Courtier,,,18.1,18.3
+43,Uganda,Uganda,800,800,,,,Country/Area,910,1,1,1,1,Ministry of Health,https://www.health.go.ug/covid/prevention/,5/23/20,Virginie,Courtier,,1m with someone coughing or sneezing,221.6,228.9
+44,United Republic of Tanzania,Tanzania,834,834,,,,Country/Area,910,distance not specified,none,none,none,President,https://time.com/5841441/tanzania-coronavirus-defeated-prayer/,5/29/20,Virginie,Courtier,,,65.5,67.4
+45,Zambia,Zambia,894,894,,,,Country/Area,910,1,1,1,1,Minister of Health,http://www.parliament.gov.zm/sites/default/files/images/publication_docs/Wednesday%2019th%20Feb%202020%20Ministerial%20Statement%20by%20Hon.%20Dr%20Chilufya.pdf,5/23/20,Virginie,Courtier,,1m with symptomatic person,24,24.7
+46,Zimbabwe,Zimbabwe,716,716,,,,Country/Area,910,1,1,1,1,Ministry of Health and Child Care,http://www.mohcc.gov.zw/,5/23/20,Virginie,Courtier,,,37.9,38.4
+47,Middle Africa,Middle Africa,911,911,,,,Subregion,947,NAP,NAP,NAP,NAP,,,,,,,,26.8,27.6
+48,Angola,Angola,24,24,,,,Country/Area,911,2,2,2,2,Departamento de Vigilância Epidemiológica,http://www.governo.gov.ao/VerNoticia.aspx?id=49438,5/23/20,Virginie,Courtier,,2m with symptomatic person,25.5,26.4
+49,Cameroon,Cameroon,120,120,,,,Country/Area,911,1,1,1,1,Gouvernement,https://www.minddevel.gov.cm/wp-content/uploads/2020/03/Corona-instructions-mayors-Fr.pdf,5/22/20,Virginie,Courtier,,,54.7,56.2
+50,Central African Republic,Central African Republic,140,140,,,,Country/Area,911,1,1,1,1,Femme du Président,https://www.acap.cf/Message-de-la-Premiere-Dame-de-Centrafrique-Brigitte-Touadera-sur-la-lutte-contre-le-COVID-19_a10407.html,5/23/20,Virginie,Courtier,,,7.6,7.8
+51,Chad,Chad,148,148,,,,Country/Area,911,1,1,1,1,"Ministère du Commerce, de l’Industrie, et de la promotion du Secteur privé",https://www.presidence.td/fr-synth-1111-Vendredi_le_20_mars_2020.html,5/23/20,Virginie,Courtier,,,12.7,13
+52,Congo,Congo,178,178,,,,Country/Area,911,1,1,1,1,Premier Ministre,https://coronavirus.tech.cg/assets/build/files/Declaration_du_gouvernement-1.pdf,5/23/20,Virginie,Courtier,,,15.8,16.2
+53,Democratic Republic of the Congo,Democratic Republic of the Congo,180,180,,,,Country/Area,911,1,1,1,1,Ministère de la Santé,https://www.stopcoronavirusrdc.info/directives-prises-par-le-gouvernement,5/22/20,Virginie,Courtier,,,38.3,39.5
+54,Equatorial Guinea,Equatorial Guinea,226,226,,,,Country/Area,911,1,1,1,1,-,https://www.zabibcabis.gq/coronavirus-guide-pour-mieux-comprendre-le-cordon-sanitaire/amp/,5/23/20,Virginie,Courtier,,,48.3,50
+55,Gabon,Gabon,266,266,,,1,Country/Area,911,1.5,1.5,1.5,1.5,Comité de pilotage du plan de veille et de riposte contre l'épidémie à coronavirus,,5/22/20,Virginie,Courtier,,,8.4,8.6
+56,Sao Tome and Principe,Sao Tome and Principe,678,678,,,,Country/Area,911,1,1,1,1,Governo são-tomense,http://ms.gov.st/?p=1677,5/23/20,Virginie,Courtier,,,224,228.3
+57,Southern Africa,Southern Africa,913,913,,,,Subregion,947,NAP,NAP,NAP,NAP,,,,,,,,25.1,25.5
+58,Botswana,Botswana,72,72,,,,Country/Area,913,2-Jan,2-Jan,2-Jan,1.5,Government of Botswana,https://www.gov.bw/sites/default/files/2020-03/Covid19.pdf,5/23/20,Virginie,Courtier,,The recommendation is not precise and is indeed 1-2 meters.,4.1,4.1
+59,Eswatini,Swaziland,748,748,,,,Country/Area,913,1,1,1,1,Eswatini Government,http://www.gov.sz/index.php/latest-news/204-latest-news/2402-coronavirus-statement,5/23/20,Virginie,Courtier,,1m with a person who is coughing or sneezing,66.8,67.5
+60,Lesotho,Lesotho,426,426,,,,Country/Area,913,1,1,1,1,Government of Lesotho,https://www.gov.ls/wp-content/uploads/2020/05/LEGAL-NOTICE-NO.-41-OF-2020.pdf,5/23/20,Virginie,Courtier,,1m in shops,70,70.6
+61,Namibia,Namibia,516,516,,,,Country/Area,913,1,1,1,1,Republic of Namibia,http://www.mhss.gov.na/documents/119527/775250/18+march+2020+covid+19+media+briefing+statement.pdf/82203147-a4c1-4019-a710-d52480e714ba,5/23/20,Virginie,Courtier,,1m with a person who is coughing or sneezing,3,3.1
+62,South Africa,South Africa,710,711,,1.5 meters in https://coronavirus.westerncape.gov.za/frequently-asked-questions/frequently-asked-questions-about-social-distancing,1,Country/Area,913,1-1.5-2,1-1.5-2,1-1.5-2,1.5,Department of Health,1 meter in https://www.gov.za/sites/default/files/gcis_documents/COVID-19-AND-PARENTS-final-30.03.2020.pdf.pdf; 1.5 meters in https://www.nicd.ac.za/diseases-a-z-index/covid-19/covid-19-guidelines/  and https://coronavirus.westerncape.gov.za/frequently-asked-questions/frequently-asked-questions-about-social-distancing; 2 meters in https://sacoronavirus.gov.za/social-distancing/,5/23/20,Virginie,Courtier,,,48.3,48.9
+63,Western Africa,Western Africa,914,914,,1,,Subregion,947,NAP,NAP,NAP,NAP,West African Health Organization (WAHO),http://www.sante.gouv.sn/sites/default/files/Bulletin%20d%E2%80%99informations%20Epid%C3%A9miologique%20Semaine%209%20du%2024%20f%C3%A9vrier%20au%2001%20mars%202020.pdf,5/22/20,Virginie,Courtier,,"1m avec une personne qui tousse, éternue ou a de la fièvre",64.6,66.3
+64,Benin,Benin,204,204,,,,Country/Area,914,1,1,1,1,Gouvernement de la République du Bénin,https://www.gouv.bj/actualite/556/coronavirus-les-11-mesures-prises-par-le-conseil-extraordinaire-des-ministres-au-benin/,5/22/20,Virginie,Courtier,,,104.7,107.5
+65,https://www.sig.gov.bf/actualites/agenda-du-gouvernement/details?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=303&cHash=605cb1ec367d2241fba0d781315529d8,Burkina Faso,854,854,,,1,Country/Area,914,1,1,1,1,Gouvernement du Burkina Faso,https://www.sig.gov.bf/actualites/agenda-du-gouvernement/details?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=303&cHash=605cb1ec367d2241fba0d781315529d8,5/22/20,Virginie,Courtier,,,74.3,76.4
+66,Cabo Verde,Cabo Verde,132,132,,,,Country/Area,914,1,1,1,1,Governo de Cabo Verde,https://covid19.cv/,5/23/20,Virginie,Courtier,,,136.5,138
+67,Cote d'Ivoire,Cote d'Ivoire,384,384,,,1,Country/Area,914,1,1,1,1,Gouvernement de Côte d'Ivoire,http://www.gouv.ci/_actualite-article.php?recordID=10960,5/22/20,Virginie,Courtier,,,80.9,83
+68,Gambia,Gambia,270,270,,,,Country/Area,914,distance not specified,none,none,none,site:.gm,https://www.mrc.gm/coronavirus-covid-19-information/,5/22/20,Virginie,Courtier,,,232,238.8
+69,Ghana,Ghana,288,288,,,,Country/Area,914,2,2,2,2,Ministry of Health,http://lgs.gov.gh/index.php/precautionary-measures-against-corona-virus-covid-19/,5/23/20,Virginie,Courtier,,"2m with a person with fever, cough, sneezing and difficulty in breathing",133.7,136.6
+70,Guinea,Guinea,324,324,,,,Country/Area,914,2,2,2,2,Ministère de la Sécurité et de la Protection Civile,https://infocommunication.gov.gn/actualites/,5/22/20,Virginie,Courtier,,maybe 1m on other web pages,52,53.4
+71,Guinea-Bissau,Guinea-Bissau,624,624,,,,Country/Area,914,1-1.5,1-1.5,1-1.5,1.25,Governo,http://jornalnopintcha.gw/2020/04/23/governo-abre-mercado-improvisado-de-prevencao-do-coronavirus/,5/23/20,Virginie,Courtier,,,68.3,70
+72,Liberia,Liberia,430,430,,,,Country/Area,914,6 feet,2,1.8,1.8,President Weah,https://okfm.com.lr/2020/03/16/liberia-records-first-confirmed-case-of-covid-19/,6/4/20,Virginie,Courtier,,,51.3,52.5
+73,Mali,Mali,466,466,,,,Country/Area,914,1,1,1,1,Ministère de la Santé et des Affaires Sociales,,5/23/20,Virginie,Courtier,,1m avec une personne malade,16.1,16.6
+74,Mauritania,Mauritania,478,478,,,,Country/Area,914,distance not specified,none,none,none,Ministère de la Santé,http://www.sante.gov.mr/?p=3566,,Layla ,El Mossadeq,,,4.4,4.5
+75,Niger,Niger,562,562,,,2,Country/Area,914,1,1,1,1,Gouvernement du Niger,https://www.presidence.ne/conseils-des-ministres/2020/3/17/1i763t2b5go80edbk59zqkxofp0vfk,5/22/20,Virginie,Courtier,,,18.4,19.1
+76,Nigeria,Nigeria,566,566,,,,Country/Area,914,2,2,2,2,Nigeria Centre for Disease Control,https://ncdc.gov.ng/news/242/17th-march-2020--third-case-of-coronavirus-disease-%28covid-19%29-confirmed-in-nigeria,5/23/20,Virginie,Courtier,,2m with a person who is coughing or sneezing,220.7,226.3
+77,Saint Helena,Saint Helena,654,654,,,,Country/Area,914,NA (part of UK),NAP,NAP,NAP,,,,,,,,15.5,15.6
+78,Senegal,Senegal,686,686,,,,Country/Area,914,1,1,1,1,Centre des Opérations d’Urgence Sanitaire (COUS) ,http://www.cousenegal.sn/questions-sur-le-coronavirus/,5/22/20,Virginie,Courtier,,1m avec une personne malade,84.6,87
+79,Sierra Leone,Sierra Leone,694,694,,,,Country/Area,914,1,1,1,1,Government of Sierra Leone,http://dhse.gov.sl/press-realease/,5/23/20,Virginie,Courtier,,"1m with a person showing signs of fever, cough and difficulty in breathing",108.2,110.5
+80,Togo,Togo,768,768,,,,Country/Area,914,1,1,1,1,Gouvernement,https://covid19.gouv.tg/a-propos-du-coronavirus/,5/23/20,Virginie,Courtier,,1m avec une personne malade,148.6,152.2
+81,NORTHERN AFRICA AND WESTERN ASIA,NORTHERN AFRICA AND WESTERN ASIA,1833,1833,,,,SDG region,1828,NAP,NAP,NAP,NAP,,,,,,,,41.1,41.8
+82,Northern Africa,Northern Africa,912,912,,,,Subregion,1833,NAP,NAP,NAP,NAP,,,,,,,,31.1,31.7
+83,Algeria,Algeria,12,12,,,2,Country/Area,912,1,1,1,1,وزارة الصحة والسكان وإصلاح المستشفيات,http://covid19.cipalgerie.com/ar/,5/27/20,Layla,El Mossadeq,,,18.1,18.4
+84,Egypt,Egypt,818,818,,,,Country/Area,912,1.5,1.5,1.5,1.5,وزارة الصحة والسكان,https://www.care.gov.eg/,5/27/20,Layla,El Mossadeq,,,100.8,102.8
+85,Libya,Libya,434,434,,,,Country/Area,912,2,2,2,2,المركز الوطني لمكافحة الأمراض,https://ncdc.org.ly/Ar/,5/27/20,Layla,El Mossadeq,,,3.9,3.9
+86,Morocco,Morocco,504,504,,,1,Country/Area,912,1,1,1,1,وزارة الصحة,http://www.covidmaroc.ma/Pages/AccueilAR.aspx,5/26/20,Layla,El Mossadeq,,,81.7,82.7
+87,Sudan,Sudan,729,736,,,,Country/Area,912,1,1,1,1,وزارة الصحة الاتحادية,http://www.fmoh.gov.sd/,5/27/20,Layla,El Mossadeq,,,24.3,24.8
+88,Tunisia,Tunisia,788,788,,,,Country/Area,912,1,1,1,1,وزارة الصحة,https://covid-19.tn/,5/27/20,Layla,El Mossadeq,,,75.3,76.1
+89,Western Sahara,Western Sahara,732,732,,,,Country/Area,912,NA (dispute with Morocco),NAP,ND,NAP,,,,,,,Sous la colonisation marocaine,2.2,2.2
+90,Western Asia,Western Asia,922,922,,,,Subregion,1833,NAP,NAP,NAP,NAP,,,,,,,,57.3,58.2
+91,Armenia,Armenia,51,51,,,,Country/Area,922,1.5,1.5,1.5,1.5,Republic of Armenia,https://hy.armradio.am/2020/05/15/covid-19-%D5%A1%D5%B6%D5%BE%D5%BF%D5%A1%D5%B6%D5%A3%D5%B8%D6%82%D5%A9%D5%B5%D5%A1%D5%B6-%D5%AF%D5%A1%D5%B6%D5%B8%D5%B6%D5%B6%D5%A5%D6%80%D5%9D-%D5%A3%D6%80%D5%A1%D5%BD%D5%A5%D5%B6%D5%B5%D5%A1%D5%AF/,5/23/20,Virginie,Courtier,,based on automatic translation,103.9,104.1
+92,Azerbaijan,Azerbaijan,31,31,,,,Country/Area,922,2,2,2,2,Azərbaycan Respublikasının Nazirlər Kabineti ,https://cabmin.gov.az/az/article/761/,5/23/20,Virginie,Courtier,,based on automatic translation,121.6,122.7
+93,Bahrain,Bahrain,48,48,,,,Country/Area,922,2,2,2,2,وزارة الصحة,https://www.moh.gov.bh/covid19,5/27/20,Layla,El Mossadeq,,,2159.4,2238.9
+94,Cyprus,Cyprus,196,196,,,,Country/Area,922,2,2,2,2,"Press and Information Office, Ministry of Health",https://www.pio.gov.cy/coronavirus/index.html,5/24/20,Marianna,Karageorgi,karageorgi@berkeley.edu,,129.7,130.7
+95,Georgia,Georgia,268,268,,,https://www.tma.edu.ge/geo/covid,Country/Area,922,2,2,2,2,Government,https://stopcov.ge/,,,,,,57.5,57.4
+96,Iraq,Iraq,368,368,,,,Country/Area,922,1,1,1,1,وزارة الصحة العراقية,https://moh.gov.iq/,,Layla,El Mossadeq,,,90.5,92.6
+97,Israel,Israel,376,376,,,,Country/Area,922,2,2,2,2,Ministry of Health,https://govextra.gov.il/ministry-of-health/corona/corona-virus/guidelines/,5/23/20,Virginie,Courtier,,based on automatic translation,393.7,400
+98,Jordan,Jordan,400,400,,,,Country/Area,922,1,1,1,1,وزارة الصحة,https://corona.moh.gov.jo/ar,5/27/20,Layla,El Mossadeq,,,113.8,114.9
+99,Kuwait,Kuwait,414,414,,,,Country/Area,922,2,2,2,2,وزارة الصحة,https://corona.e.gov.kw/,6/5/20,Layla,El Mossadeq,,,236.1,239.7
+100,Lebanon,Lebanon,422,422,,,,Country/Area,922,2,2,2,2,وزارة الصحة العامة,https://corona.ministryinfo.gov.lb/,5/27/20,Layla,El Mossadeq,,,670.2,667.2
+101,Oman,Oman,512,512,,,,Country/Area,922,distance not specified,none,none,none,وزارة الصحة,https://covid19.moh.gov.om/#/home,6/5/20,Layla,El Mossadeq,,,16.1,16.5
+102,Qatar,Qatar,634,634,,,,Country/Area,922,2,2,2,2,وزارة الصحة العامة,https://covid19.moph.gov.qa/AR/Pages/default.aspx,5/27/20,Layla,El Mossadeq,,,243.9,248.2
+103,Saudi Arabia,Saudi Arabia,682,682,,,,Country/Area,922,2,2,2,2,وزارة الصحة,https://covid19.moh.gov.sa/,5/27/20,Layla,El Mossadeq,,,15.9,16.2
+104,State of Palestine,State of Palestine,275,931,,,,Country/Area,922,2,2,2,2,وزارة الصحة,https://www.corona.ps/,5/27/20,Layla,El Mossadeq,,,827.5,847.4
+105,Syrian Arab Republic,Syria,760,760,,,,Country/Area,922,1,1,1,1,وزارة الصحة,http://www.moh.gov.sy/Default.aspx?tabid=56&language=ar-YE,6/5/20,Layla,El Mossadeq,,Un mètre des malades,93,95.3
+106,Turkey,Turkey,792,792,,,1,Country/Area,922,1.5,1.5,1.5,1.5,Ministry of Health,https://www.tuseb.gov.tr/haber/162,5/30/20,Arzu,Celik,arzu.celik@boun.edu.tr,"""3-4 steps"" is the official recommendation, ""1.5 m"" on TV",108.4,109.6
+107,United Arab Emirates,United Arab Emirates,784,784,,,,Country/Area,922,2,2,2,2,الهيئة الوطنية لإدارة الطوارئ والأزمات والكوارث,https://covid19.ncema.gov.ae/,5/27/20,Layla,El Mossadeq,,,116.9,118.3
+108,Yemen,Yemen,887,887,,,http://www.moh.gov.ye/,Country/Area,922,1,1,1,1,وزارة الصحة العامة والسكان,https://www.saba.ye/en/news3087024.htm,5/27/20,Layla,El Mossadeq,,The  official FB page of the ministry f Health is more updated : https://www.facebook.com/MHPYemen/,55.2,56.5
+109,CENTRAL AND SOUTHERN ASIA,CENTRAL AND SOUTHERN ASIA,921,921,,,,SDG region,1828,NAP,NAP,NAP,NAP,,,,,,,,192.8,195.1
+110,Central Asia,Central Asia,5500,5500,,,,Subregion,921,NAP,NAP,NAP,NAP,,,,,,,,18.6,18.9
+111,Kazakhstan,Kazakhstan,398,398,,,,Country/Area,5500,1,1,1,1,Ministry of Health,https://www.ktk.kz/ru/newsfeed/article/2020/06/13/151165/,6/15/20,Virginie,Courtier,,https://tengrinews.kz/kazakhstan_news/distantsiyu-dlya-lyudey-v-ocheredyah-ustanovili-v-kazahstane-394834/,6.9,7
+112,Kyrgyzstan,Kyrgyzstan,417,417,,,,Country/Area,5500,1,1,1,1,,http://covid.kyrgyzmedia.kg/sposoby-kak-ne-zarazitsya/,6/15/20,Virginie,Courtier,,https://www.bbc.com/russian/features-52018923,33.5,34
+113,Tajikistan,Tajikistan,762,762,,,,Country/Area,5500,1,1,1,1,,https://www.tajmedun.tj/ru/vzglyad-na/obshchestvo/zabolevanie-vyzvannoe-koronavirusom-covid-19-chasto-zadavaemye-voprosy/,6/15/20,Virginie,Courtier,,1m from a sick person,66.6,68.1
+114,Turkmenistan,Turkmenistan,795,795,,,,Country/Area,5500,1,1,1,1,,http://saglykhm.gov.tm/tm/profilaktika-infektsionnyh-zabolevaniy/,6/15/20,Virginie,Courtier,,1m from a person who is coughing or sneezing,12.6,12.8
+115,Uzbekistan,Uzbekistan,860,860,,,,Country/Area,5500,2,2,2,2,,http://www.minzdrav.uz/openData/csv/SanPin-0372-20.pdf,6/8/20,Virginie,Courtier,,"page 4, 2.5.",77.5,78.7
+116,Southern Asia,Southern Asia,5501,5501,,,,Subregion,921,NAP,NAP,NAP,NAP,,,,,,,,299.7,303.2
+117,Afghanistan,Afghanistan,4,4,,,,Country/Area,5501,no physical distanciation,none,none,none,-,-,6/5/20,Julio,Bendezu-Sarmiento,julio.bendezu-sarmiento@mnhn.fr,"La lettre numéro 11, date 30 mai 2020, ministère du travail et des affaires sociales, indique 2 mètres mais le gouvernement n'a pas donné de distance officielle.",58.3,59.6
+118,Bangladesh,Bangladesh,50,50,,,,Country/Area,5501,1,1,1,1,Ministry of Health and Family Welfare,http://www.mohfw.gov.bd/index.php?option=com_docman&task=doc_download&gid=22313&lang=en,5/23/20,Rezaul,Karim,rkarimcu@yahoo.com,,1252.6,1265.2
+119,Bhutan,Bhutan,64,64,,,,Country/Area,5501,1 (3 feet),1,0.9,1,Royal Government Of Bhutan,,5/26/20,Virginie,Courtier,,1m from a person who is coughing or sneezing,20,20.2
+120,India,India,356,699,,,1,Country/Area,5501,1 (3 feet),1,0.9,1,National Health Portal,https://www.nhp.gov.in/disease/communicable-disease/novel-coronavirus-2019-ncov,5/26/20,Virginie,Courtier,,1m from person who is unwell,459.6,464.1
+121,Iran,Iran,364,364,,,,Country/Area,5501,1.8-2,2,2,2,https://behdasht.gov.ir/step2corona,https://behdasht.gov.ir/,6/4/20,Manon,Monier,,2m in some websites and 1.8 in others,50.9,51.6
+122,Maldives,Maldives,462,462,,,,Country/Area,5501,1 (3 feet),1,0.9,1,Government,https://www.gov.mv/en/covid19/publications/measures-to-ease-lockdown,6/9/20,Virginie,Courtier,,,1769.9,1801.8
+123,Nepal,Nepal,524,524,,,,Country/Area,5501,distance not specified,ND,ND,ND,Government,http://edcd.gov.np/resources/download/reduce-your-risk-of-coronavirus-infection-iec,5/26/20,Virginie,Courtier,,alternative medicine recommendations: https://drive.google.com/file/d/15ZeiYQgNrHkP3qRG-uSzcLmP_WAu2tZ2/view ,199.6,203.3
+124,Pakistan,Pakistan,586,586,,,,Country/Area,5501,1,1,1,1,Government of Pakistan,https://covid.gov.pk/faq,5/26/20,Virginie,Courtier,,1m from sick person,280.9,286.5
+125,Sri Lanka,Sri Lanka,144,144,,,,Country/Area,5501,1 (3 feet),1,0.9,1,Ministry of Health,https://hpb.health.gov.lk/en/covid-19,5/26/20,Virginie,Courtier,,1m from a sick person,340,341.5
+126,EASTERN AND SOUTH-EASTERN ASIA,EASTERN AND SOUTH-EASTERN ASIA,1832,1832,,,,SDG region,1828,NAP,NAP,NAP,NAP,,,,,,,,146.8,147.6
+127,Eastern Asia,Eastern Asia,906,906,,,,Subregion,1832,NAP,NAP,NAP,NAP,,,,,,,,144.7,145.2
+128,China,China,156,156,,,1,Country/Area,906,1,1,1,1,Chinese Center for Disease Control and Prevention,http://www.chinacdc.cn/en/COVID19/202002/P020200310326809462942.pdf,5/26/20,Virginie,Courtier,,,152.7,153.3
+129,Hong Kong,Hong Kong,344,344,,,,Country/Area,906,1,1,1,1,Government of the Hong-Kong Special Administrative Region,https://www.coronavirus.gov.hk/eng/social_distancing.html,5/26/20,Virginie,Courtier,,,7082.1,7140
+130,"China, Macao SAR","China, Macao SAR",446,446,,,,Country/Area,906,NA (part of China),NAP,NAP,NAP,,,,,,,,21419.6,21717.1
+131,Taiwan,Taiwan,158,158,,,,Country/Area,906,1-1.5,1-1.5,1-1.5,1.25,Taiwan center for disease control,https://www.cdc.gov.tw/Advocacy/SubIndex/2xHloQ6fXNagOKPnayrjgQ?diseaseId=N6XvFa1YP9CXYdB0kNSA9A&tab=3,5/26/20, Lin,Yea-Lih,,indoor: 1.5. outdoor: 1,671.4,672.6
+132,Dem. People's Republic of Korea,Dem. People's Republic of Korea,408,408,,,,Country/Area,906,1,1,1,1,Workers' Party of Korea,https://rodong.rep.kp/ko/index.php?strPageID=SF01_02_01&newsID=2020-02-19-0029,,,,,,213.2,214.1
+133,Japan,Japan,392,392,,,2,Country/Area,906,2,2,2,2,"Ministry of Health, Labour and Welfare",https://www.mhlw.go.jp/content/10900000/000623146.pdf,5/27/20,Yumiko,Suto,leiden@yahoo.co.jp,,348,346.9
+134,Mongolia,Mongolia,496,496,,,,Country/Area,906,1.5,1.5,1.5,1.5,-,https://covid19.gov.ua/yak-zakhystyty-sebe-ta-ridnykh,5/26/20,Virginie,Courtier,,,2.1,2.1
+135,Republic of Korea,Republic of Korea,410,410,,,2,Country/Area,906,2,2,2,2,KCDC,http://ncov.mohw.go.kr/en/infoBoardView.do?brdId=14&brdGubun=141&dataGubun=&ncvContSeq=1551&contSeq=1551&board_id=&gubun=,5/26/20,Virginie,Courtier,,,526.8,527.3
+136,South-Eastern Asia,South-Eastern Asia,920,920,,,,Subregion,1832,NAP,NAP,NAP,NAP,,,,,,,,152.5,154
+137,Brunei Darussalam,Brunei Darussalam,96,96,,,,Country/Area,920,2,2,2,2,Ministry of Health ,http://www.moh.gov.bn/SitePages/FAQCOVID19.aspx,,,,,2m from a person who is coughing or sneezing,82.2,83
+138,Cambodia,Cambodia,116,116,,,2,Country/Area,920,1,1,1,1,Ministry of Health ,http://hismohcambodia.org/public/fileupload/ESMF-Cambodia%20COVID-19%20ER%20Project%2029%20April%202020.pdf,5/27/20,Virginie,Courtier,,,93.4,94.7
+139,Indonesia,Indonesia,360,360,,,1,Country/Area,920,1,1,1,1,Ministry of Health,https://www.kemkes.go.id/folder/view/full-content/structure-faq.html,5/27/20,Laras,Pitayu,Laras.PITAYU@ijm.fr,,149.4,151
+140,Laos,Laos,418,418,,,,Country/Area,920,2,2,2,2,Prime Minister,http://www.vientianetimes.org.la/freeContent/Prime%20Minister%27s%20order%20on%20COVID-19%20final.pdf,6/4/20,Virginie,Courtier,,,31.1,31.5
+141,Malaysia,Malaysia,458,458,,,,Country/Area,920,1,1,1,1,Ministry of Health ,https://www.moh.gov.my/moh/resources/Penerbitan/Garis%20Panduan/COVID19/Annex_26_COVID_guide_for_Social_Distancing_24032020.pdf,5/27/20,Virginie,Courtier,,,97.2,98.5
+142,Myanmar,Myanmar,104,104,,,,Country/Area,920,1 (3 feet),1,0.9,1,,https://www.mdn.gov.mm/en/q-coronaviruses-covid-19,5/27/20,Virginie,Courtier,,,82.7,83.3
+143,Philippines,Philippines,608,608,,,,Country/Area,920,1,1,1,1,Department of Health,https://www.doh.gov.ph/COVID-19/FAQs,5/27/20,Virginie,Courtier,,1m from sick person,362.6,367.5
+144,Singapore,Singapore,702,702,,,,Country/Area,920,1,1,1,1,Ministère de la Santé,https://www.moh.gov.sg/news-highlights/details/stricter-safe-distancing-measures-to-prevent-further-spread-of-covid-19-cases,5/27/20,Antonia,Monteiro,,,8291.9,8357.6
+145,Thailand,Thailand,764,764,,,1,Country/Area,920,1,1,1,1,Ministry of Public Health,https://ddc.moph.go.th/viralpneumonia/eng/img/infographic/covid19_man_eng.pdf,5/27/20,Virginie,Courtier,,,136.3,136.6
+146,Timor-Leste,Timor-Leste,626,626,,,,Country/Area,920,1,1,1,1,Governo de Timor-Leste,http://timor-leste.gov.tl/?p=23718&n=1,5/27/20,Virginie,Courtier,,"1m from a person with respiratory syndroms (cough, etc.)",87,88.7
+147,Viet Nam,Viet Nam,704,704,,,2,Country/Area,920,2,2,2,2,Prime Minister,https://vietnamtimes.org.vn/vietnam-pm-issues-social-distancing-order-on-national-scale-for-15-days-18951.html,5/27/20,Virginie,Courtier,,,311.1,313.9
+148,LATIN AMERICA AND THE CARIBBEAN,LATIN AMERICA AND THE CARIBBEAN,1830,1830,,,,SDG region,1828,NAP,NAP,NAP,NAP,,,,,,,,32.2,32.5
+149,Caribbean,Caribbean,915,915,,,,Subregion,1830,NAP,NAP,NAP,NAP,,,,,,,,191.7,192.6
+150,Anguilla,Anguilla,660,660,,,,Country/Area,915,NA (part of UK),NAP,NAP,NAP,,,,,,,,165.2,166.7
+151,Antigua and Barbuda,Antigua and Barbuda,28,28,,,,Country/Area,915,6 feet,2,1.8,1.8,Government of Antigua and Barbuda,https://ab.gov.ag/pdf/covid_news/Essential_Services_Statement_Apri_9_2020_24Hrs_Lockdown_Ammendment.pdf,5/27/20,Virginie,Courtier,,,220.7,222.6
+152,Aruba,Aruba,533,533,,,,Country/Area,915,NA (part of Netherlands),NAP,NAP,NAP,,,,,,,,590.6,593.1
+153,Bahamas,Bahamas,44,44,,,,Country/Area,915,3-6 feet,2-Jan,0.9-1.8,1.35,Prime Minister,https://opm.gov.bs/tag/bahamas-coronavirus/,5/27/20,Virginie,Courtier,,range between 3 and 6 feet,38.9,39.3
+154,Barbados,Barbados,52,52,,,,Country/Area,915,6 feet,2,1.8,1.8,Government,https://gisbarbados.gov.bb/blog/extracts-emergency-management-covid-19-order-2020-fbclidiwar32cxrvq5zqfy0msm6nybss1_90a-nygoo3isvesndcghk-wagaik1dz48/,5/27/20,Virginie,Courtier,,,667.5,668.3
+155,"Bonaire, Sint Eustatius and Saba","Bonaire, Sint Eustatius and Saba",535,535,,,,Country/Area,915,NA (part of Netherlands),NAP,NAP,NAP,,,,,,,,79.2,79.9
+156,British Virgin Islands,British Virgin Islands,92,92,,,,Country/Area,915,NA (part of UK),NAP,NAP,NAP,,,,,,,,200.2,201.6
+157,Cayman Islands,Cayman Islands,136,136,,,,Country/Area,915,NA (part of UK),NAP,NAP,NAP,,,,,,,,270.6,273.8
+158,Cuba,Cuba,192,192,,,,Country/Area,915,1.5,1.5,1.5,1.5,Ministerio de la salud publica de la republica de Cuba,https://salud.msp.gob.cu/?emd_video=medidas-de-higiene-para-prevenir-infecciones-respiratorias,5/27/20,Michel,Raymond,,distance recommandée avec une pesonen malade,106.5,106.4
+159,Curacao,Curacao,531,531,,,,Country/Area,915,NA (part of Netherlands),NAP,NAP,NAP,,,,,,,,368.1,369.6
+160,Dominica,Dominica,212,212,,,,Country/Area,915,3-6 feet,2-Jan,0.9-1.8,1.35,Government,http://www.dominica.gov.dm/tips-to-protect-self-family,5/27/20,Virginie,Courtier,,,95.7,96
+161,Dominican Rep.,Dominican Rep.,214,214,,,,Country/Area,915,2,2,2,2,journal,https://www.noticiasaominuto.com/mundo/1463192/republica-dominicana-bombeiros-encharcam-quem-nao-cumpre-distanciamento,5/29/20,Michel,Raymond,,,222.2,224.5
+162,Grenada,Grenada,308,308,,,,Country/Area,915,6 feet,2,1.8,1.8,Government,https://covid19.gov.gd/faq/,5/27/20,Virginie,Courtier,,,329.4,330.9
+163,Guadeloupe,Guadeloupe,312,312,,,,Country/Area,915,NA (part of France),NAP,NAP,NAP,,,,,,,,245.7,245.8
+164,Haiti,Haiti,332,332,,,,Country/Area,915,1,1,1,1,Government,https://reliefweb.int/sites/reliefweb.int/files/resources/20200428_-_flash_update_no._5_covid-19_-_ocha_haiti_-_fr.pdf,5/27/20,Virginie,Courtier,,,408.7,413.7
+165,Jamaica,Jamaica,388,388,,,,Country/Area,915,6 feet,2,1.8,1.8,Ministry of Health and Wellness,https://jamcovid19.moh.gov.jm/about-corona.html,5/27/20,Virginie,Courtier,,for people over 70 years old: 6 feet from person who is sick,272.2,273.4
+166,Martinique,Martinique,474,474,,,,Country/Area,915,NA (part of France),NAP,NAP,NAP,,,,,,,,354.3,354
+167,Montserrat,Montserrat,500,500,,,,Country/Area,915,NA (part of UK),NAP,NAP,NAP,,,,,,,,49.9,50
+168,Puerto Rico,Puerto Rico,630,630,,,,Country/Area,915,NA (part of US),NAP,NAP,NAP,,,,,,,,330.7,322.5
+169,Saint Barthelemy,Saint Barthelemy,652,652,,,,Country/Area,915,NA (part of France),NAP,NAP,NAP,,,,,,,,447.9,449.3
+170,Saint Kitts and Nevis,Saint Kitts and Nevis,659,659,,,,Country/Area,915,1 (3 feet),1,0.9,1,"Ministry of Health, Social Community Development and Genders Affairs",https://www.covid19.gov.kn/faqs/,5/27/20,Virginie,Courtier,,1m with person who is sick,203.2,204.6
+171,Saint Lucia,Saint Lucia,662,662,,,,Country/Area,915,2 (6 feet),2,2,2,Ministry of Health and Wellness,https://covid19response.lc/p/how-to-protect-yourself,5/27/20,Virginie,Courtier,,1m with a person who is coughing or sneezing,299.7,301
+172,Saint Martin (French part),Saint Martin (French part),663,663,,,,Country/Area,915,"NA (part Netherlands, part France)",NAP,NAP,NAP,,,,,,,,717,729.4
+173,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,670,670,,,,Country/Area,915,3-6 feet,2-Jan,0.9-1.8,1.35,Government,http://www.gov.vc/index.php/media-center/1314-three-more-covid-19-patients-recovered,5/27/20,Virginie,Courtier,,,283.6,284.5
+174,Sint Maarten (Dutch part),Sint Maarten (Dutch part),534,534,,,,Country/Area,915,"NA (part Netherlands, part France)",NAP,NAP,NAP,,,,,,,,1246.7,1261.2
+175,Trinidad and Tobago,Trinidad and Tobago,780,780,,,,Country/Area,915,2 (6 feet),2,1.8,2,Government,http://www.news.gov.tt/content/trinidad-and-tobago-covid-19-novel-coronavirus-update-122#.Xs7QOsbgr1A,5/27/20,Virginie,Courtier,,,271.9,272.8
+176,Turks and Caicos Islands,Turks and Caicos Islands,796,796,,,,Country/Area,915,NA (part of UK),NAP,NAP,NAP,,,,,,,,40.2,40.8
+177,United States Virgin Islands,United States Virgin Islands,850,850,,,,Country/Area,915,NA (part of US),NAP,NAP,NAP,,,,,,,,298.8,298.4
+178,Central America,Central America,916,916,,,Le Parisien,Subregion,1830,NAP,NAP,NAP,NAP,,,,,,,,72.4,73.3
+179,Belize,Belize,84,84,,,,Country/Area,916,6 feet,2,1.8,1.8,Minister of health,https://www.facebook.com/102734428043082/videos/261938091639476/,5/29/20,Michel,Raymond,,,17.1,17.4
+180,Costa Rica,Costa Rica,188,188,,,,Country/Area,916,1,1,1,1,Doc de 2 ministères,https://www.ministeriodesalud.go.cr/sobre_ministerio/prensa/docs/guia_continuidad_negocio_v1_21042020.pdf,5/29/20,Michel,Raymond,,1.5 pour restau; 1.8 en travail intérieur ,98.9,99.8
+181,El Salvador,El Salvador,222,222,,,,Country/Area,916,1,1,1,1,Ministerio del salud de el Salvador,https://www.facebook.com/salud.sv,5/29/20,Michel,Raymond,,,311.5,313
+182,Guatemala,Guatemala,320,320,,,,Country/Area,916,1,1,1,1,,https://www.prensalibre.com/ciudades/guatemala-ciudades/supermercados-implementan-medidas-recomendadas-por-la-oms-para-evitar-el-contagio-del-covid-19/,5/25/20,Michel,Raymond,,,164.1,167.2
+183,Honduras,Honduras,340,340,,,1,Country/Area,916,1.5-2,1.5-2,1.5-2,1.75,"Cadena nacional del 9 de mayo, (cf minute 4)",https://covid19honduras.org/?q=videos,5/29/20,Michel,Raymond,,,87.1,88.5
+184,Mexico,Mexico,484,484,,,1.5,Country/Area,916,1.5,1.5,1.5,1.5,Gobierno de Mexico,https://coronavirus.gob.mx/quedate-en-casa/,5/25/20,Michel,Raymond,,,65.6,66.3
+185,Nicaragua,Nicaragua,558,558,,,1,Country/Area,916,distance not specified,none,none,none,https://www.laprensa.com.ni/2020/03/27/salud/2656194-coronavirus-cual-es-la-distancia-de-seguridad-recomendable-para-evitar-contagiarse-de-covid-19,https://ni.usembassy.gov/covid-19-information-2/,5/25/20,Michel,Raymond,,,54.4,55
+186,Panama,Panama,591,591,,,,Country/Area,916,2,2,2,2,Ministerio de la salud,http://www.minsa.gob.pa/promocion-salud/recomendaciones-covid-19,5/29/20,Michel,Raymond,,,57.1,58
+187,South America,South America,931,931,,,Le Parisien,Subregion,1830,NAP,NAP,NAP,NAP,,,,,,,,24.5,24.7
+188,Argentina,Argentina,32,32,,,1.5,Country/Area,931,2-Jan,2-Jan,2-Jan,1.5,,https://www.argentina.gob.ar/salud/coronavirus/poblacion/salir-de-casa,5/24/20,Michel,Raymond,,,16.4,16.5
+189,Bolivia,Bolivia,68,68,,,1,Country/Area,931,1.5,1.5,1.5,1.5,Ministerio de la Salud,https://www.minsalud.gob.bo/component/jdownloads/send/30-guias-manejo-covid/423-guia-para-el-manejo-del-covid-19 et aussi: https://www.minsalud.gov.co/Ministerio/Institucional/Procesos%20y%20procedimientos/GPSG02.pdf,5/24/20,Michel,Raymond,,,10.6,10.8
+190,Brazil,Brazil,76,76,,,1.5,Country/Area,931,2-Jan,2-Jan,2-Jan,1.5,Ministério da Saúde,http://www.in.gov.br/web/dou/-/portaria-n-65-de-6-de-maio-de-2020-255614645,5/24/20,Horacio,Frydman,hfrydman@bu.edu,2m pour les personnes qui toussent - https://coronavirus.saude.gov.br/sobre-a-doenca#como-se-proteger - https://coronavirus.saude.gov.br/sobre-a-doenca,25.3,25.4
+191,Chile,Chile,152,152,,,1,Country/Area,931,1,1,1,1,Gobierno de Chile ,https://www.gob.cl/coronavirus/,5/21/20,Michel,Raymond,,,25.5,25.7
+192,Colombia,Colombia,170,170,,,2,Country/Area,931,2,2,2,2,Ministerio de Salud y protection social,https://drive.google.com/drive/u/0/folders/1m8sRPuJU5Y3E0QiGuRnbfDuLrs03eSHt,5/29/20,Michel,Raymond,,,45.4,45.9
+193,Ecuador,Ecuador,218,218,,,,Country/Area,931,distance not specified,none,none,none,Ministerio de salud publica,https://www.salud.gob.ec/medidas-de-proteccion-basicas-contra-el-nuevo-coronavirus/,5/27/20,Michel,Raymond,,,70,71
+194,Falkland Islands (Malvinas),Falkland Islands (Malvinas),238,238,,,,Country/Area,931,NA (part of UK),NAP,NAP,NAP,,,,,,,,0.3,0.3
+195,French Guiana,French Guiana,254,254,,,,Country/Area,931,NA (part of France),NAP,NAP,NAP,,,,,,,,3.5,3.6
+196,Guyana,Guyana,328,328,,,,Country/Area,931,1 (3 feet),1,0.9,1,Ministry of Public Health,https://dpi.gov.gy/covid19/,5/26/20,Virginie,Courtier,,1m from sick person,4,4
+197,Paraguay,Paraguay,600,600,,,1,Country/Area,931,2,2,2,2,Ministerio de Salud publica y bienestar social,https://www.mspbs.gov.py/comunicacion-covid19.html,5/27/20,Michel,Raymond,,,17.7,18
+198,Peru,Peru,604,604,,,,Country/Area,931,1,1,1,1,Ministerio de la Salud,https://www.gob.pe/8663-como-prevenir-el-coronavirus,5/27/20,Michel,Raymond,,,25.4,25.8
+199,Suriname,Suriname,740,740,,,,Country/Area,931,2,2,2,2,Government,http://www.gov.sr/actueel/2020/regering-kondigt-gefaseerde-versoepeling-van-maatregelen-aan/,5/27/20,Virginie,Courtier,,,3.7,3.8
+200,Uruguay,Uruguay,858,858,,,1,Country/Area,931,distance not specified,none,none,none,Ministerio de la salud publica,https://www.gub.uy/ministerio-salud-publica/sites/ministerio-salud-publica/files/documentos/noticias/MSP_CORONAVIRUS_PROTOCOLO_SALIDA_0.pdf,5/27/20,Michel,Raymond,,,19.8,19.8
+201,Venezuela (Bolivarian Republic of),Venezuela,862,862,,,,Country/Area,931,1,1,1,1,Ministerio del poder popular para la salud,http://www.mpps.gob.ve/index.php/sistemas/descargas,5/25/20,Michel,Raymond,,,32.3,32.2
+202,AUSTRALIA/NEW ZEALAND,AUSTRALIA/NEW ZEALAND,927,927,,,,SDG region,1828,NAP,NAP,NAP,NAP,,,,,,,,3.8,3.8
+203,Australia,Australia,36,36,,,1.5,Country/Area,927,1.5,1.5,1.5,1.5,Australian Government of Health,https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/how-to-protect-yourself-and-others-from-coronavirus-covid-19/social-distancing-for-coronavirus-covid-19,5/26/20,Virginie,Courtier,,,3.3,3.3
+204,New Zealand,New Zealand,554,554,,,,Country/Area,927,2,2,2,2,Ministry of Health,https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-health-advice-general-public/protecting-yourself-and-others-covid-19#physicaldistancing,5/21/20,Virginie,Courtier,,,18.2,18.3
+205,OCEANIA (EXCLUDING AUSTRALIA AND NEW ZEALAND),OCEANIA (EXCLUDING AUSTRALIA AND NEW ZEALAND),1835,1835,,,,SDG region,1828,NAP,NAP,NAP,NAP,,,,,,,,22.4,22.8
+206,Melanesia,Melanesia,928,928,,,,Subregion,1835,NAP,NAP,NAP,NAP,,,,,,,,20.6,21
+207,Fiji,Fiji,242,242,,,,Country/Area,928,2-Jan,2-Jan,2-Jan,1.5,Ministry of Health and Medical Services,http://www.health.gov.fj/media-release-14covid-10-2019-novel-coronavirus/,5/26/20,Virginie,Courtier,,,48.7,49.1
+208,New Caledonia,New Caledonia,540,540,,,,Country/Area,928,NA (part of France),NAP,NAP,NAP,,,,,,,,15.5,15.6
+209,Papua New Guinea,Papua New Guinea,598,598,,,,Country/Area,928,2,2,2,2,Department of Health,https://www.health.gov.pg/subindex.php?news=1,5/26/20,Virginie,Courtier,,,19.4,19.8
+210,Solomon Islands,Solomon Islands,90,90,,,,Country/Area,928,2-Jan,2-Jan,2-Jan,1.5,Ministry of Health and Medical Services,https://solomons.gov.sb/wp-content/uploads/2020/03/Another-Negative-COVID-19-Test-Result-for-Solomon-Islands.pdf,5/26/20,Virginie,Courtier,,,23.9,24.5
+211,Vanuatu,Vanuatu,548,548,,,,Country/Area,928,1,1,1,1,Ministry of Health,https://covid19.gov.vu/index.php/questions-answers,5/26/20,Virginie,Courtier,,,24.6,25.2
+212,Micronesia,Micronesia,954,954,,,,Subregion,1835,NAP,NAP,NAP,NAP,,,,,,,,171.4,173.2
+213,Guam,Guam,316,316,,,,Country/Area,954,NA (part of USA),NAP,NAP,NAP,,,,,,,,309.8,312.6
+214,Kiribati,Kiribati,296,296,,,,Country/Area,954,2,2,2,2,Government of Kiribati,https://covid19.gov.ki/how-protect-yourself,5/26/20,Virginie,Courtier,,,145.2,147.5
+215,Marshall Islands,Marshall Islands,584,584,,,,Country/Area,954,2-Jan,2-Jan,2-Jan,1.5,National Disaster Management Office,https://ndmo.gov.mh/rmi-covid19-information/coivd19-approved-awareness-materials/,5/26/20,Virginie,Courtier,,,326.6,328.9
+216,Micronesia (Fed. States of),Micronesia (Fed. States of),583,583,,,,Country/Area,954,2 (6 feet),2,1.8,2,Government,https://gov.fm/index.php/component/content/article/35-pio-articles/news-and-updates/296-the-fsm-covid-19-response-framework-a-summary,5/26/20,Virginie,Courtier,,,162.6,164.3
+217,Nauru,Nauru,520,520,,,,Country/Area,954,1 (3 feet),1,0.9,1,Government of the Republic of Nauru,http://www.naurugov.nr/government/departments/department-of-health-and-medicinal-service/covid-19.aspx,5/26/20,Virginie,Courtier,,,538.2,541.7
+218,Northern Mariana Islands,Northern Mariana Islands,580,580,,,,Country/Area,954,NA (part of USA),NAP,NAP,NAP,,,,,,,,124.4,125.1
+219,Palau,Palau,585,585,,,,Country/Area,954,6 feet,2,1.8,1.8,Ministry of Health,https://www.palaugov.pw/wp-content/uploads/2020/04/MOH-COVID-19-Daily-Update_04222020.pdf,5/26/20,Virginie,Courtier,,,39.1,39.3
+220,Polynesia,Polynesia,957,957,,,,Subregion,1835,NAP,NAP,NAP,NAP,,,,,,,,84,84.5
+221,American Samoa,American Samoa,16,16,,,,Country/Area,957,NA (part of USA),NAP,NAP,NAP,,,,,,,,276.6,276
+222,Cook Islands,Cook Islands,184,184,,,,Country/Area,957,NA (associated with New Zealand),NAP,NAP,NAP,COVID-19 Cook Islands Response,https://covid19.gov.ck/?v=1590496568626,5/26/20,Virginie,Courtier,,,73.1,73.2
+223,French Polynesia,French Polynesia,258,258,,,,Country/Area,957,NA (part of France),NAP,NAP,NAP,,,,,,,,76.3,76.7
+224,Niue,Niue,570,570,,,,Country/Area,957,NA (part of New Zealand),NAP,NAP,NAP,,,,,,,,6.2,6.2
+225,Samoa,Samoa,882,882,,,,Country/Area,957,1 (3 feet),1,0.9,1,Ministry of Health,https://www.health.gov.ws/corona-virus/,5/26/20,Virginie,Courtier,,,69.6,70.1
+226,Tokelau,Tokelau,772,772,,,,Country/Area,957,NA (part of New Zealand),NAP,NAP,NAP,,,,,,,,133,135
+227,Tonga,Tonga,776,776,,,,Country/Area,957,distance not specified,none,none,none,Ministry of Health,http://www.health.gov.to/en/what-novel-coronavirus,5/26/20,Virginie,Courtier,,,145.1,146.8
+228,Tuvalu,Tuvalu,798,798,,,,Country/Area,957,ND,ND,ND,ND,site:.tv,,,,,,,388.5,393.1
+229,Wallis and Futuna Islands,Wallis and Futuna Islands,876,876,,,,Country/Area,957,NA (part of France),NAP,NAP,NAP,,,,,,,,81.7,80.3
+230,EUROPE AND NORTHERN AMERICA,EUROPE AND NORTHERN AMERICA,1829,1829,,,,SDG region,1828,NAP,NAP,NAP,NAP,,,,,,,,27.3,27.4
+231,EUROPE,EUROPE,917,917,,,,SDG subregion,1829,NAP,NAP,NAP,NAP,,,,,,,,33.8,33.8
+232,Eastern Europe,Eastern Europe,923,923,,,,Subregion,917,NAP,NAP,NAP,NAP,,,,,,,,16.3,16.2
+233,Belarus,Belarus,112,112,,,2,Country/Area,923,1,1,1,1,Ministry of Health,http://minzdrav.gov.by/en/novoe-na-sayte/profilaktika-grippa-i-orvi-koronavirusnoy-infektsii/,5/26/20,Virginie,Courtier,,,46.6,46.6
+234,Bulgaria,Bulgaria,100,100,,,,Country/Area,923,1.5,1.5,1.5,1.5,Council of Ministers of the Republic of Bulgaria,https://www.gov.bg/bg/prestsentar/novini/premierat-boyko-borisov-provede-sreshta-s-glavniya-myuftiya-d-r-mustafa-hadzhi,,,,,,64.5,64
+235,Czech Rep.,Czech Rep.,203,203,,,1,Country/Area,923,2,2,2,2,Ministerstvo Zdravotnictvi Ceske Republiky,https://koronavirus.mzcr.cz/spolu-proti-koronaviru/,5/26/20,Virginie,Courtier,,,138.4,138.6
+236,Hungary,Hungary,348,348,,,2,Country/Area,923,1-2 then 1.5,2-Jan,2-Jan,1.5,Government,https://koronavirus.gov.hu/megelozes,5/26/20,Olga,Nagy,nagy.olga.maria@med.u-szeged.hu,The government changed the rule from 1-2m to 1.5 m on 30 April 2020 http://abouthungary.hu/news-in-brief/coronavirus-update-pm-orban-says-hungary-to-ease-restrictions-outside-of-budapest/,107,106.7
+237,Poland,Poland,616,616,,,2,Country/Area,923,1.5,1.5,1.5,1.5,Rzeczypospolitej Polskiej,https://www.gov.pl/web/koronawirus/porady,5/26/20,Virginie,Courtier,,,123.7,123.6
+238,Republic of Moldova,Moldova,498,498,,,1,Country/Area,923,1,1,1,1,"Ministerul Sănătății, Muncii și Protecţiei Sociale",https://msmps.gov.md/ro/content/ce-este-un-coronavirus-de-tip-nou-cum-sa-te-protejezi-impotriva-acestei-infectii-intrebari,5/26/20,Virginie,Courtier,,1m from sick person,123.1,122.8
+239,Romania,Romania,642,642,,,,Country/Area,923,1,1,1,1,Institutul National de Sanatate Publica Romania,http://www.cnscbt.ro/index.php/informatii-pentru-populatie/1381-sfaturi-privind-utilizarea-mastilor/file,5/26/20,Virginie,Courtier,,1m from sick person,84.1,83.6
+240,Russian Federation,Russia,643,643,,,1.5,Country/Area,923,1,1,1,1,-,https://covid19.rosminzdrav.ru/,5/26/20,Virginie,Courtier,,1m from sick person,8.9,8.9
+241,Slovakia,Slovakia,703,703,,,2,Country/Area,923,2,2,2,2,Government,https://korona.gov.sk/en/,5/26/20,Virginie,Courtier,,,113.5,113.5
+242,Ukraine,Ukraine,804,804,,,1.5,Country/Area,923,1,1,1,1,-,https://moz.gov.ua/koronavirus-2019-ncov,5/26/20,Virginie,Courtier,,,75.9,75.5
+243,Northern Europe,Northern Europe,924,924,,,,Subregion,917,NAP,NAP,NAP,NAP,,,,,,,,62.1,62.4
+244,Channel Islands,Channel Islands,830,830,,,,Country/Area,924,NA (linked to UK),NAP,NAP,NAP,Public Health Services,https://covid19.gov.gg/sites/default/files/2020-05/Exit%20from%20Lockdown%20-%20Bailiwick%20of%20Guernsey%20Framework%20updated_0.pdf,5/24/20,Virginie,Courtier,,for Jersey: https://www.gov.je/Health/Coronavirus/SafeExitFramework/Pages/SafeExitFrameworkForIslanders.aspx,906.7,915
+245,Denmark,Denmark,208,208,,,,Country/Area,924,2-Jan,2-Jan,2-Jan,1.5,Government,https://www.sst.dk/corona-eng/faq#uk-corona-faq-raad,5/24/20,Virginie,Courtier,,change from 2 to 1m on May 11,136,136.5
+246,Estonia,Estonia,233,233,,,2,Country/Area,924,2,2,2,2,Government,https://www.terviseamet.ee/en/how-avoid-contracting-coronavirus,5/29/20,Rosina,Savisaar,rosinasavisaar@gmail.com,,31.3,31.3
+247,Faroe Islands,Faroe Islands,234,234,,2-Jan,,Country/Area,924,NA (part of Denmark),NAP,NAP,NAP,Faroese Government,https://corona.fo/recommendations-and-measures?_l=en,5/24/20,Virginie,Courtier,,change from 2 to 1m on May 14,34.9,35
+248,Finland,Finland,246,246,,,,Country/Area,924,2-Jan,2-Jan,2-Jan,1.5,Terveyden ja hyvinvoinnin laitos,https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/tarttuminen-ja-suojautuminen-koronavirus,5/24/20,Virginie,Courtier,,recommendation is 1-2m.,18.2,18.2
+249,Iceland,Iceland,352,352,,,,Country/Area,924,2,2,2,2,Government of Iceland,https://www.government.is/diplomatic-missions/embassy-article/2020/03/25/Strict-measures-to-contain-the-spread-of-Covid-19-in-Iceland/,5/24/20,Virginie,Courtier,,,3.4,3.4
+250,Ireland,Ireland,372,372,,,,Country/Area,924,2 (6 feet),2,1.8,2,Government,https://www.gov.ie/en/publication/472f64-covid-19-coronavirus-guidance-and-advice/,5/24/20,Virginie,Courtier,,,70.9,71.7
+251,Isle of Man,Isle of Man,833,833,,,2 (6 feet),Country/Area,924,NA (linked to UK),NAP,NAP,NAP,Government,https://covid19.gov.im/general-information/latest-updates/,5/24/20,Virginie,Courtier,,,148.4,149.2
+252,Latvia,Latvia,428,428,,,2,Country/Area,924,2,2,2,2,Latvian Centre for Disease Prevention and Control (SPKC),https://arkartassituacija.gov.lv/,5/24/20,Virginie,Courtier,,,30.7,30.3
+253,Lithuania,Lithuania,440,440,,,2,Country/Area,924,2-Jan,2-Jan,2-Jan,1.5,Lietuvos Respublikos sveikatos apsaugos ministerija,https://sam.lrv.lt/lt/koronavirusas/informacija-visuomenei/apsaugos-priemones-ir-gydymas,5/24/20,Virginie,Courtier,,,44,43.4
+254,Norway,Norway,578,579,,,,Country/Area,924,1,1,1,1,Norwegian Institute of Public Health,https://www.fhi.no/en/op/novel-coronavirus-facts-advice/facts-and-general-advice/social-distance-quarantine-and-isolation/,5/24/20,Virginie,Courtier,,,14.7,14.8
+255,Sweden,Sweden,752,752,,,,Country/Area,924,distance not specified,none,none,none,Folkhälsomyndigheten,,5/25/20,Karin,Lindstrom,karin.biotopia@gmail.com,"no exact number, more than one arm's length",24.5,24.6
+256,United Kingdom,United Kingdom,826,826,,,2,Country/Area,924,2,2,2,2,Government,https://www.gov.uk/coronavirus,5/23/20,Virginie,Courtier,,,279.1,280.6
+257,Southern Europe,Southern Europe,925,925,,,,Subregion,917,NAP,NAP,NAP,NAP,,,,,,,,117.7,117.5
+258,Albania,Albania,8,8,,,1,Country/Area,925,2,2,2,2,Minister of Health and Social Protection,http://infolex.al/wp-content/uploads/2020/04/NotificationJJ9020C-EN.docx.pdf,5/24/20,Virginie,Courtier,,,105.1,105
+259,Andorra,Andorra,20,20,,,,Country/Area,925,1.5,1.5,1.5,1.5,Gouvernement D'andorre,https://www.govern.ad/images/stories/Coronavirus/PDFs/Consells__Confinament_saludable_poblacio.pdf,5/29/20,Michel,Raymond,,,164.1,164.4
+260,Bosnia and Herzegovina,Bosnia and Herzegovina,70,70,,,1,Country/Area,925,1,1,1,1,Agencija za sigurnost hrane Bosne  Hercegovine,https://fsa.gov.ba/hr/who-temeljne-mjere-zastite-od-novog-koronavirusa-2019-ncov/,5/24/20,Virginie,Courtier,,najmanje jedan metar udaljenosti od osobe koja kašlje ili kiše,64.7,64.3
+261,Croatia,Croatia,191,191,,,2,Country/Area,925,1,1,1,1,Republika Hrvatska,https://www.hvz.hr/vijesti/koronovirus-pregled-stanja,5/24/20,Virginie,Courtier,,based on automatic translation,73.8,73.4
+262,Gibraltar,Gibraltar,292,292,,,,Country/Area,925,NA (part of UK),NAP,NAP,NAP,HM Government of Gibraltar,https://www.gibraltar.gov.gi/uploads/Unlock%20the%20Rock/UNLOCKTHEROCK.pdf,5/24/20,Virginie,Courtier,,1-2 meters,3370.6,3369.1
+263,Greece,Greece,300,300,,,2,Country/Area,925,2,2,2,2,"National Public Ηealth Organization, Ministry of Health",https://eody.gov.gr/neos-koronaios-covid-19/,5/24/20,Marianna,Karageorgi,karageorgi@berkeley.edu,"The distance depends on context (1.5m with use of mask, 2m in high-risk groups).",81.3,80.9
+264,Holy See,Holy See,336,336,,,,Country/Area,925,1,1,1,1,Vatican,https://www.vaticannews.va/fr/vatican/news/2020-05/vatican-coronavirus-12-cas-positif.html,5/24/20,Virginie,Courtier,,They follow the recommendations of Italian authorities.,1852.3,1838.6
+265,Italy,Italy,380,381,,,2,Country/Area,925,1,1,1,1,Ministero della Salute,http://www.trovanorme.salute.gov.it/norme/dettaglioAtto?id=73743,5/25/20,Francesca,Pinton,,,205.9,205.6
+266,Malta,Malta,470,470,,,,Country/Area,925,2,2,2,2,Ministry of Health,https://deputyprimeminister.gov.mt/en/health-promotion/Pages/Novel-coronavirus.aspx,5/24/20,Virginie,Courtier,,,1376.2,1379.8
+267,Montenegro,Montenegro,499,499,,,2,Country/Area,925,2,2,2,2,Government of Montenegro,http://www.gov.me/en/homepage/measures_and_recommendations/,5/24/20,Virginie,Courtier,,,46.7,46.7
+268,North Macedonia,Macedonia,807,807,,,,Country/Area,925,2,2,2,2,Republic of North Macedonia,https://koronavirus.gov.mk/en/home/protection-from-coronavirus,5/24/20,Virginie,Courtier,,,82.6,82.6
+269,Portugal,Portugal,620,620,,,1,Country/Area,925,2,2,2,2,Serviço Nacional de Saude,https://www.sns24.gov.pt/tema/doencas-infecciosas/covid-19/prevencao/#sec-7,5/24/20,Virginie,Courtier,,based on automatic translation,111.7,111.3
+270,San Marino,San Marino,674,674,,,,Country/Area,925,1,1,1,1,Republique de San Marino,https://www.gov.sm/topics/Argomenti/Emergenza-CoronaVirus.html,5/29/20,Francesca,Pinton,francesca.pntn@gmail.com,,564.4,565.6
+271,Serbia,Serbia,688,688,,,,Country/Area,925,1,1,1,1,Institute for Public Health,https://covid19.rs/homepage-english/,6/6/20,Francesca,Pinton,,,100.3,99.9
+272,Slovenia,Slovenia,705,705,,,1.5,Country/Area,925,1.5,1.5,1.5,1.5,Republika Slovenija,https://www.gov.si/zbirke/drzave/nizozemska/,5/24/20,Virginie,Courtier,,,103.2,103.2
+273,Spain,Spain,724,724,,,2,Country/Area,925,2,2,2,2,Ministerio de sanidad,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/documentos/Plan_Transicion_Guia_Fase_1.pdf,0202-05-23,Michel ,Raymond,,2m on https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/img/20.03.24_AislamientoDomiciliario_COVID19.jpg,93.7,93.7
+274,Western Europe,Western Europe,926,926,,,,Subregion,917,NAP,NAP,NAP,NAP,,,,,,,,180.2,180.8
+275,Austria,Austria,40,40,,,1.5,Country/Area,926,2-Jan,2-Jan,2-Jan,1.5,Oesterreich Government,https://www.oesterreich.gv.at/en.html,5/24/20,Magnus,Nordborg,magnus.nordborg@gmi.oeaw.ac.at,,108.7,109.3
+276,Belgium,Belgium,56,58,,,1.5,Country/Area,926,1.5,1.5,1.5,1.5,Conseil National de Sécurité,https://emploi.belgique.be/fr/actualites/update-coronavirus-mesures-de-prevention-et-consequences-sur-le-plan-du-droit-du-travail,5/26/20,Virginie,Courtier,,,381.1,382.7
+277,France,France,250,251,,,1,Country/Area,926,1,1,1,1,Gouvernement français,https://www.gouvernement.fr/info-coronavirus,5/26/20,Virginie,Courtier,,,118.9,119.2
+278,Germany,Germany,276,276,,,1.5,Country/Area,926,1.5,1.5,1.5,1.5,Die Bundesregierung,https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724,5/26/20,Michael,Lang,,same recommendation in all federal governments,239.6,240.4
+279,Liechtenstein,Liechtenstein,438,438,,,,Country/Area,926,2,2,2,2,Amt für Gesuntheit,https://www.llv.li/inhalt/118724/amtsstellen/coronavirus,5/24/20,Virginie,Courtier,,2m from a sick person,237.6,238.4
+280,Luxembourg,Luxembourg,442,442,,,,Country/Area,926,2,2,2,2,Ministère de la Santé,https://msan.gouvernement.lu/fr/dossiers/2020/corona-virus.html,5/21/20,Virginie,Courtier,,,237.7,241.7
+281,Monaco,Monaco,492,492,,,,Country/Area,926,1,1,1,1,Gouvernement Princier,https://www.gouv.mc/Action-Gouvernementale/Coronavirus-Covid-2019,5/21/20,Virginie,Courtier,,,26152.3,26338.3
+282,Netherlands,Netherlands,528,528,,,1.5,Country/Area,926,1.5,1.5,1.5,1.5,Rijksinstituut voor Volksgezondheid en Milieu,https://www.rivm.nl/coronavirus-covid-19,5/26/20,Flor,Rhebergen,,,507,508.2
+283,Switzerland,Switzerland,756,757,,,2,Country/Area,926,2,2,2,2,Conseil Fédéral,https://www.bag.admin.ch/bag/fr/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/leichte-sprache/neue-regeln-des-bundes.html,5/24/20,Bruno,Lemaitre,,,217.4,219
+284,NORTHERN AMERICA,NORTHERN AMERICA,918,918,,,,SDG subregion,1829,NAP,NAP,NAP,NAP,,,,,,,,19.7,19.8
+285,Bermuda,Bermuda,60,60,,,,Country/Area,918,NA (part of UK),NAP,NAP,NAP,Government of Bermuda,https://www.gov.bm/coronavirus-resources,5/21/20,Virginie,Courtier,,,1250.2,1245.5
+286,Canada,Canada,124,124,,,,Country/Area,918,2,2,2,2,Government of Canada,https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/being-prepared.html,5/26/20,Virginie,Courtier,,,4.1,4.2
+287,Dist-rworldmap,Greenland,304,304,,,,Country/Area,918,NA (associated with Danemark),NAP,NAP,NAP,Naalakkersuisut,https://nun.gl/Emner/English/Fakta_om_COVID19?sc_lang=da,5/24/20,Virginie,Courtier,,,0.1,0.1
+288,Saint Pierre and Miquelon,Saint Pierre and Miquelon,666,666,,,,Country/Area,918,NA (part of France),NAP,NAP,NAP,,,,,,,,25.3,25.2
+289,United States of America,United States,840,842,,,,Country/Area,918,6 feet,2,1.8,1.8,Centers of Disease Control and Prevention,https://www.cdc.gov/coronavirus/2019-ncov/php/risk-assessment.html,5/26/20,Virginie,Courtier,,,36,36.2
+-,World,-,-,-,,-,-,-,-,NAP,NAP,NAP,NAP,World Health Organization,https://www.who.int/emergencies/diseases/novel-coronavirus-2019?gclid=CjwKCAjw2uf2BRBpEiwA31VZj3EKfe9q45LKqBwyaj_5Tar8nS3bmFN5lhLzMQCqCrNB4b_VMoGolhoCXO0QAvD_BwE,5/26/20,Virginie,Courtier,,1m recommendation,,

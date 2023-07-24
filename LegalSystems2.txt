@@ -1,0 +1,250 @@
+
+Political entities; legal systems; official languages
+Afghanistan; muslim; pashtu, dari
+Albania; civilist; albanian
+Algeria; mixed; arabic, +
+American samoa; common law; english
+Andorra; customary; catalan
+Angola; civilist; portuguese
+Anguilla; common law; english
+Antigua and Barbuda; common law; english
+Argentina; civilist; spanish
+Armenia; civilist; armenian
+Aruba; civilist; dutch
+Australia; common law; english
+Austria; civilist; german, +
+Azerbaijan; civilist; azerbaijani
+Azores; civilist; portuguese
+Bahamas; common law; english
+Bahrain; mixed; arabic
+Bangladesh; mixed; bengali
+Barbados; common law; english 
+Belarus; civilist; belarussian, russian
+Belgium; civilist; dutch, french, german
+Belize; common law; english 
+Benin; civilist; french
+Bermuda; common law; english 
+Bhutan; mixed; dzong-kha
+Bolivia; civilist; spanish
+Bosnia and Herzegovina; civilist; bosnian, serbian, croatian
+Botswana; mixed; english
+Brazil; civilist; portuguese
+British indian ocean territory; common law; english
+British territories of antartica; common law; english
+Brunei Darussalam; mixed; malay, english
+Bulgaria; civilist; bulgarian
+Burkina Faso; mixed; french
+Burundi; mixed; kirundi, french
+Cabo Verde; civilist; portuguese, +
+Cambodia; civilist; khmer
+Cameroon; mixed; french, english
+Canada; common law; french, english, +
+Canary Islands; civilist; spanish
+Caymans Islands; common law; english
+Central African Republic; civilist; french, sangho
+Chad; mixed; arabic, french
+Chile; civilist; spanish
+China; mixed; chinois
+Colombia; civilist; spanish
+Comoros; mixed; french, sikomor, arabic
+Congo; mixed; french
+Democratic Republic of the Congo; mixed; french
+Cook Islands; common law; english
+Costa Rica; civilist; spanish
+Cote d'Ivoire; mixed; french
+Croatia; civilist; croatian
+Cuba; civilist; spanish
+Cyprus; mixed; greek, turkish
+Czech Rep.; civilist; czech
+Dem. People's Republic of Korea; mixed; korean
+Denmark; civilist; danish, +
+Djibouti; mixed; french, arabic
+Dominica; common law; english
+Dominican Rep.; civilist; spanish
+Ecuador; civilist; spanish, +
+Egypt; mixed; arabic
+El Salvador; civilist; spanish
+Equatorial Guinea; civilist; spanish, french
+Eritrea; mixed; tigrinya, arabic
+Estonia; civilist; estonian
+Ethiopia; mixed; amharic, +
+Falkland Islands; common law; english
+Faroe Islands; civilist; faroen, danish
+Fiji; common law; english, +
+Finland; civilist; finnish, swedish
+France; civilist; french
+French guyana; civilist; french
+French polynesia; civilist; french
+French southern and  antarctic lands; civilist; french
+Gabon; mixed; french
+Gambia; mixed; english
+Georgia; civilist; georgian
+Germany; civilist; german
+Ghana; mixed; english
+Gibraltar; common law; english
+Greece; civilist; greek
+Greenland; civilist; greenlandish, danish
+Grenada; common law; english
+Guadeloupe; civilist; french
+Guam; common law; english, chamorro
+Guatemala; civilist; spanish
+Guernsey; customary; english, +
+Guinea; mixed; french
+Guinea-Bissau; mixed; portuguese
+Guyana; mixed; english
+Haiti; civilist; french, creole
+Hawaii; common law; english, hawaiian
+Holy See; civilist; italian, latin
+Honduras; civilist; spanish
+Hong Kong; mixed; chinese, english
+Hungary; civilist; hungarian
+Iceland; civilist; icelandic
+India; mixed; hindi, english, +
+Indonesia; mixed; bahasa indonesia
+Iran; mixed; persan
+Iraq; mixed; arabic, kurdish, +
+Ireland; common law; english, irish
+Israel; mixed; hebrew, arabic
+Italy; civilist; italian
+Jamaica; common law; english
+Japan; mixed; japanese
+Jersey; customary; english, +
+Jordan; mixed; arabic
+Kazakhstan; civilist; kazakh, russian
+Kenya; mixed; english, swahili
+Kiribati; common law; english, kiribati
+Kuwait; mixed; arabic
+Kyrgyzstan; civilist; kyrgyz, russian 
+Laos; civilist; lao
+Latvia; civilist; latvian
+Lebanon; mixed; arabic, +
+Lesotho; mixed; sesotho, english
+Liberia; mixed; english
+Libya; mixed; arabic
+Liechtenstein; civilist; german
+Lithuania; civilist; lithuanian
+Louisiana; mixed; english
+Luxembourg; civilist; french, german, luxembourgish
+Macau; civilist; chinese, portuguese
+Macedonia; civilist; macedonian, +
+Madagascar; mixed; malagasy, french
+Madeira; civilist; portuguese
+Malawi; mixed; english, +
+Malaysia; mixed; malay
+Maldives; muslim; dhivehi
+Mali; mixed; french
+Malta; mixed; maltese, english
+Man, isle of; common law; english, manx
+Mariana; common law; english, +
+Marshall Islands; common law; english
+Martinique; civilist; french
+Mauritania; mixed; arabic, +
+Mauritius; mixed; english, french
+Mayotte Island; civilist; french
+Mexico; civilist; spanish
+Micronesia (Fed. States of); mixed; english, +
+Moldova; civilist; romanian
+Monaco; civilist; french
+Mongolia; mixed; mongol
+Montserrat; common law; english
+Montenegro; civilist; serbian
+Morocco; mixed; arabic, +
+Mozambique; mixed; portuguese
+Myanmar; mixed; burmese
+Namibia; mixed; english, +
+Nauru; common law; nauruan, english
+Nepal; mixed; nepali
+Netherlands; civilist; dutch
+Netherlands antilles; civilist; dutch
+New Caledonia; civilist; french
+New Zealand; common law; english, +
+Nicaragua; civilist; spanish
+Niger; mixed; french
+Nigeria; mixed; english, +
+Niue; common law; english, niuean
+Norfolk; common law; english
+Northern ireland; common law; english, +
+Norway; civilist; norwegian
+Oman; mixed; arabic
+Pakistan; mixed; urdu, english
+Palau; common law; english, +
+Panama; civilist; spanish
+Papua New Guinea; mixed; anglais, + 
+Paraguay; civilist; spanish, guarani
+Peru; civilist; spanish, +
+Philippines; mixed; tagalog, english
+Pitcairn Islands; common law; english
+Poland; civilist; polish
+Portugal; civilist; portuguese
+Puerto Rico; mixed; spanish, english
+Qatar; mixed; arabic
+Quebec; mixed; french, english
+Republic of Korea; mixed; korean
+Reunion Islands; civilist; french
+Romania; civilist; romanian
+Russia; civilist; russian, +
+Rwanda; mixed; kinyarwanda, french, english
+Saint-barthelemy; civilist; french
+Saint Helena; common law; english
+Saint Kitts and Nevis; common law; english
+Saint Lucia; mixed; english
+Saint Martin; civilist; french
+Saint Pierre and Miquelon; civilist; french
+Saint Vincent and the Grenadines; common law; english
+San Marino; civilist; italian
+Samoa; mixed; english, samoan 
+Sao Tome and Principe; mixed; portuguese
+Saudi Arabia; muslim; arabic
+Scotland; mixed; english, +
+Senegal; mixed; french
+Serbia; civilist; serbian
+Seychelles; mixed; creole, english, french
+Sierra Leone; mixed; english
+Singapore; mixed; english, chinese, malay, tamil
+Slovakia; civilist; slovak
+Slovenia; civilist; slovenian
+Solomon Islands; mixed; english
+Somalia; mixed; somali
+South Africa; mixed; english, africaans, + 
+South Georgia and Sandwich Islands; common law; english
+South Sudan; mixed; arabic
+Sudan; mixed; arabic
+Spain; civilist; spanish, +
+Sri Lanka; mixed; sinhala, tamil 
+State of Palestine; mixed; arabic
+Suriname; civilist; dutch
+Swaziland; mixed; swati, english
+Sweden; civilist; swedish
+Switzerland; civilist; german, french, italian, +
+Syria; mixed; arabic
+Taiwan; mixed; chinese
+Tajikistan; civilist; tajik
+Tanzania; mixed; swahili, english
+Thailand; civilist; thai
+Timor-Leste; mixed; portuguese, tetum
+Togo; mixed; french
+Tokelau; common law; tokelauan, english
+Tonga; common law; english, tongan
+Trinidad and Tobago; common law; english
+Tunisia; mixed; arabic
+Turkey; civilist; turkish
+Turkmenistan; civilist; turkmen, russian
+Turks and Caicos; common law; english
+Tuvalu; common law; english, tuvaluan
+Uganda; mixed; english
+Ukraine; civilist; ukrainian, +
+United Arab Emirates; mixed; arabic
+United Kingdom; common law; english, +
+United States; common law; english
+Uruguay; civilist; spanish
+Uzbekistan; civilist; uzbek, +
+Vanuatu; mixed; english, bislama, french
+Venezuela; civilist; spanish
+Viet Nam; civilist; vietnamese
+Virgin Islands; common law; english
+Wallis and futuna; civilist; french
+Western samoa; mixed; english, samoan
+Yemen; mixed; arabic
+Zambia; mixed; english
+Zimbabwe; mixed; english
+

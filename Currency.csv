@@ -1,0 +1,58 @@
+﻿c,Country,Currency
+n, Anguilla,Eastern Caribbean dollar
+151, Antigua and Barbuda,Eastern Caribbean dollar
+160, Dominica,Eastern Caribbean dollar
+162, Grenada,Eastern Caribbean dollar
+n, Montserrat,Eastern Caribbean dollar
+170, Saint Kitts and Nevis,Eastern Caribbean dollar
+171, Saint Lucia,Eastern Caribbean dollar
+173, Saint Vincent and the Grenadines,Eastern Caribbean dollar
+275, Austria,Euro
+276, Belgium,Euro
+94, Cyprus,Euro
+246, Estonia,Euro
+248, Finland,Euro
+277, France,Euro
+278, Germany,Euro
+263, Greece,Euro
+250, Ireland,Euro
+265, Italy,Euro
+252, Latvia,Euro
+253, Lithuania,Euro
+280, Luxembourg,Euro
+266, Malta,Euro
+282, Netherlands,Euro
+269, Portugal,Euro
+241, Slovakia,Euro
+272, Slovenia,Euro
+273, Spain,Euro
+214, Kiribati,Australian Dollars
+217, Nauru,Australian Dollars
+n, Tuvalu,Australian Dollars
+203,Australia,Australian Dollars
+289,United States   ,United States dollar
+n, Ecuador,United States dollar
+181, El Salvador,United States dollar
+186, Panama,United States dollar
+215, Marshall Islands,United States dollar
+216, Federated States of Micronesia,United States dollar
+219, Palau,United States dollar
+146, Timor-Leste,United States dollar
+60,Lesotho,South African rand
+61,Namibia,South African rand
+62,South Africa ,South African rand
+59,Eswatini,South African rand
+64,Benin,CFA franc
+65,Burkina Faso,CFA franc
+67,Côte d'Ivoire,CFA franc
+71,Guinea-Bissau,CFA franc
+73,Mali,CFA franc
+75,Niger,CFA franc
+78,Senegal,CFA franc
+80,Togo,CFA franc
+49,Cameroon,CFA franc
+50,Central Africa Republic,CFA franc
+51,Chad,CFA franc
+53,Republic of the Congo,CFA franc
+54,Equatorial Guinea,CFA franc
+55,Gabon,CFA franc
