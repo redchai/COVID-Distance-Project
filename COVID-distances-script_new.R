@@ -4,7 +4,7 @@
 #during COVID-19 pandemics reveal cultural links between countries
 ###########
 
-#Code information (as of 19/07/23) - table of contents
+#Code information (as of 25/07/23) - table of contents
 
 #I.Setup
 #0.Setting the environment, data input for the recommended distance, and changing into metric values
@@ -47,6 +47,7 @@
 #install.packages("effects")
 #install.packages("car")
 #install.packages("poolr")
+#install.packages("miniCRAN")
 
 library(sp)
 library(gplots)
@@ -67,14 +68,17 @@ library(gplots)
 library(car)
 library(poolr)
 
-par(mar=c(5,5,4,2))
+par(mar=c(5,5,4,4))
 
-remotes::install_version("Rttf2pt1", version = "1.3.12")
+#remotes::install_version("Rttf2pt1", version = "1.3.12")
 font_import() 
 loadfonts(device="postscript")
 loadfonts()
-setwd("/Users/mac/Desktop/Research_Projects")
-DistData=read.csv("COVID-Distances8.csv",header=T,sep=",",stringsAsFactors=FALSE)
+setwd("C:/Users/USER/Desktop/Research_Projects")
+
+
+DistDataurl="https://raw.githubusercontent.com/redchai/COVID-Distance-Project/main/COVID-Distances7.csv"
+DistData=read.csv(url(DistDataurl))
 DistData=as.data.frame(DistData)
 
 #Processing the input file of all recommended distances 
@@ -82,14 +86,14 @@ DistData=as.data.frame(DistData)
 #remove all the non-sovereign countries
 DistData=DistData[DistData$Average.dist!="NAP",]
 #nrow(DistData)
-#there are 197 sovereign countries in our list.
+#there are 195 sovereign countries in our list.
 
 #according to https://www.worldometers.info/geography/how-many-countries-are-there-in-the-world/
 #there are currently 195 countries.
 #View(DistData$Region.subregion.country.area)
 #We have them all and our list also includes Hong Kong and Taiwan.
 #nrow(DistData[DistData$Metric.average.dist=="none"|DistData$Metric.average.dist=="ND",])
-# 13 countries do not have a recommended distance
+# 11 countries do not have a recommended distance
 #we collected distances for 195 countries (193 sovereign countries + Hong Kong and Taiwan).
 
 #changing the imperical systems to the metric scale
@@ -97,9 +101,13 @@ for (n in 1:nrow(DistData)) {
   DistData$Metric.average.dist[n]="nd"}
 for (n in 1:nrow(DistData)) {
   metric=DistData$Average.dist[n]
-  if (metric==1.8) {metric=2}
+  metric2=DistData$Rec.distance.in.m[n]
+  if (metric==1.8) {
+    metric<-2
+    metric2<-2}
   if (metric==1.35) {metric=1.5}
   DistData$Metric.average.dist[n]=metric
+  DistData$Rec.distance.in.m[n]=metric2
 }
 
 
@@ -142,13 +150,13 @@ DistData[DistData$Recommended.distance=="no physical distanciation",]$Region.sub
 
 #1.Distribution of the recommended distances 
 ##########
-#View(table(DistData$Rec.distance.m))
+#View(table(DistData$Rec.distance.in.m))
 #The most recommended distances are 1m and then 2m.
 #remove countries for which the recommended distance was not obtained:
 DistData=DistData[DistData$Average.dist!="ND",]
-#View(prop.table(table(DistData$Rec.distance.m)))
+#View(prop.table(table(DistData$Rec.distance.in.m)))
 #The 1-m recommendation represents 44% of the countries and 2-m 30% of the countries.
-DistList=as.data.frame(table(DistData$Rec.distance.m))
+DistList=as.data.frame(table(DistData$Rec.distance.in.m))
 #View(DistList)
 
 DistList=arrange(DistList,-row_number())
@@ -184,43 +192,43 @@ panelA=
 ggdraw() +  draw_plot(panelA, x = 0.66, y = 0, width = 0.3, height = 0.417) 
 #figure 1A
 
-#2.Visualization of the recommended distances on a world map
+
+#2. Visualization of the recommended distances on a world map
 ###########
 
 #check the names of the countries stored in rworldmap package to make sure they are the same as in our input file
 require(rworldmap)
-data(countryExData)
-countries=countryExData[, 2]
+#data(countryExData)
+countries <- countryExData[, 2]
 #View(countries)
 #View(countryExData)
 #matched=joinCountryData2Map(DistData, joinCode="ISO3", nameJoinColumn="Country.code")
 #matched=joinCountryData2Map(DistData, joinCode="NAME", nameJoinColumn="Country.names.rworldmap", verbose=TRUE)
 matched=joinCountryData2Map(DistData, joinCode="UN", nameJoinColumn="Country.code", verbose=TRUE)
 
-#197 codes from your data successfully matched countries in the map
+#195 codes from your data successfully matched countries in the map
 #0 codes from your data failed to match with a country code in the map
-# 45 codes from the map weren't represented in your data
+#45 codes from the map weren't represented in your data
 
-
-mapParams=mapCountryData(subset(matched, continent != "Antarctica"), nameColumnToPlot="Dist.rworldmap", 
-               mapTitle="Recommended distances", 
-               catMethod ="categorical", addLegend=FALSE, 
-               colourPalette = c("lightpink","orange", "violet", "purple","cornflowerblue","blue","darkblue","grey"))
-#"azure" removed because no "ND" values
+mapParams=mapCountryData(subset(matched, continent != "Antarctica"), nameColumnToPlot="Rec.distance.in.m", 
+                         mapTitle="Recommended distances", 
+                         catMethod ="categorical", addLegend=FALSE, aspect = 1,
+                         colourPalette = c("lightpink","orange", "violet", "purple","cornflowerblue","blue","darkblue","grey"))
 do.call(addMapLegendBoxes, c(mapParams,title="distances"
-                             #,x='top',horiz=TRUE
-                             ))
+                             ,x='bottom',horiz=TRUE, bg=NA, col="white", cex=0.3, pt.cex=1
+))
 #Export>Save as eps and then open in Inkscape to combine with Fig. 1A
 
+
 #drawmap= function(matched) {
- # function() {mapParams=mapCountryData(subset(matched, continent != "Antarctica"), nameColumnToPlot="Rec.distance.m", 
- #                                      mapTitle="Recommended distances", 
- #                                      catMethod ="categorical", addLegend=FALSE, 
- #                                      colourPalette = c("lightpink","orange", "violet", "purple","cornflowerblue","blue","darkblue","azure","grey"))
- #           do.call(addMapLegendBoxes, c(mapParams,title="distances"
-                                      #  ,x='top',horiz=TRUE
-  #                  ))
- # }
+# function() {mapParams=mapCountryData(subset(matched, continent != "Antarctica"), nameColumnToPlot="Rec.distance.in.m", 
+#                                      mapTitle="Recommended distances", 
+#                                      catMethod ="categorical", addLegend=FALSE, 
+#                                      colourPalette = c("lightpink","orange", "violet", "purple","cornflowerblue","blue","darkblue","azure","grey"))
+#           do.call(addMapLegendBoxes, c(mapParams,title="distances"
+#  ,x='top',horiz=TRUE
+#                  ))
+# }
 #}
 #drawmap(matched)
 #
@@ -230,6 +238,9 @@ mapCountryData(matched, nameColumnToPlot="Rec.distance.m",
                mapTitle="Recommended distances in Europe", mapRegion="Europe", 
                colourPalette=c("lightpink","orange", "violet", "purple","cornflowerblue","blue","darkblue","azure","grey"), catMethod="categorical")
 
+plot_grid(panelA, mapParams, blankPlot,
+          labels = c("A","B", ""),
+          ncol = 1, nrow = 3,rel_heigths = c(3,5,1))
 
 
 
@@ -241,7 +252,8 @@ mapCountryData(matched, nameColumnToPlot="Rec.distance.m",
 #Hilpert, P., Cantarero, K., Frackowiak, T., Ahmadi, K., ... & Blumen, S. (2017). 
 #Preferred interpersonal distances: a global comparison. Journal of Cross-Cultural Psychology, 48(4), 577-592.
 
-PersDist=read.csv("Table1-Sorokowska_revised.txt",header=T,sep=",",stringsAsFactors=FALSE)
+PersDisturl="https://raw.githubusercontent.com/redchai/COVID-Distance-Project/main/Table1-Sorokowska_revised.txt"
+PersDist=read.csv(url(PersDisturl))
 PersDist=as.data.frame(PersDist)
 PersDistRecDist=merge(DistDataWithoutND,PersDist, by.x="Region.subregion.country.area", by.y="Country",all=FALSE)
 #all 42 countries matched 
@@ -354,6 +366,8 @@ pd1
 
 #5. Data for colonization history
 ##########
+Geodisturl="https://raw.githubusercontent.com/redchai/COVID-Distance-Project/main/geo_cepii2_revised.csv"
+GeoDist=read.csv(url(Geodisturl))
 GeoDist=read.csv("geo_cepii2_revised.csv",header=T,sep=",",stringsAsFactors=FALSE)
 GeoDist=as.data.frame(GeoDist)
 DistDataGeoDist=merge(GeoDist,DistDataWithoutND, by.x="cnum", by.y="Country.code")
@@ -476,7 +490,8 @@ colonization_plot
 #We added one line - 'South Sudan; mixed; arabic' because South Sudan was not represented as a legal entity in the file
 #xxFor South Sudan, we have to confirm what legal systems are in South Sudan
 #xxcheck exactly how the file was made
-LegalDist=read.csv("LegalSystems2.txt",header=T,sep=";",stringsAsFactors=FALSE)
+LegalDisturl="https://raw.githubusercontent.com/redchai/COVID-Distance-Project/main/LegalSystems2.txt"
+LegalDist=read.csv(url(LegalDisturl),header=T,sep=";")
 LegalDist=as.data.frame(LegalDist)
 LegalDistRecDist=merge(LegalDist,DistDataWithoutND, by.x="Political.entities", by.y="Country.names.rworldmap")
 
@@ -568,7 +583,8 @@ legal_plot + geom_segment(aes(x=1, y=2.1, xend=2, yend=2.1), col = "gray80")+
 
 #7. Distances of the first official language used in each country
 ##########
-GeoDist2=read.csv("geo_cepii2_revised.csv",header=T,sep=",",stringsAsFactors=FALSE)
+GeoDist2url="https://raw.githubusercontent.com/redchai/COVID-Distance-Project/main/geo_cepii2_revised.csv"
+GeoDist2=read.csv(url(GeoDist2url))
 GeoDist2=as.data.frame(GeoDist2)
 DistDataGeoDist2=merge(GeoDist2,DistDataWithoutND, by.x="cnum", by.y="Country.code")
 
@@ -722,7 +738,8 @@ continent_plot +
 
 #9. Recommended distances correlation with currency union
 ##########
-Currency=read.csv("Currency.csv",header=T,sep=",",stringsAsFactors=FALSE)
+Currencyurl="https://raw.githubusercontent.com/redchai/COVID-Distance-Project/main/Currency.csv"
+Currency=read.csv(url(Currencyurl))
 Currency=as.data.frame(Currency)
 Currency_table=merge(Currency,DistDataWithoutND, by.x="c", by.y="c")
 
@@ -806,7 +823,8 @@ currency_plot +
 
 #10. Recommended distances in former SARS spiked countries
 ##########
-SARS_data=read.csv("SARS.csv",header=T,sep=",",stringsAsFactors = FALSE)
+SARS_dataurl="https://raw.githubusercontent.com/redchai/COVID-Distance-Project/main/SARS.csv"
+SARS_data=read.csv(url(SARS_dataurl))
 SARS_data=as.data.frame(SARS_data)
 SARS_data_2=merge(SARS_data,DistDataWithoutND, by.x="Areas",by.y="Region.subregion.country.area",all=TRUE)
 
@@ -971,7 +989,7 @@ Rdf1_May<-ggplot(data=R_tracking_df_May,aes(x=distance,y=Rvalue))+
   theme(
     text=element_text(size=12,family="Arial",color="black"))+
   xlab("Recommended distance (m)")+
-  ylab("R value")
+  ylab("Reproduction number \n on May 8 2020")
 
 Rdf1_May
 
@@ -1064,15 +1082,18 @@ Rdf1_Aug<-ggplot(data=R_tracking_df_Aug,aes(x=distance,y=Rvalue))+
     axis.text=element_text(size=12,family="Arial",color="black"))+
   theme(
     text=element_text(size=12,family="Arial",color="black"))+
+  ylim(0,2)+
   xlab("Recommended distance (m)")+
-  ylab("R value")
+  ylab("Reproduction number \n on Aug 1 2020")
 
 Rdf1_Aug
 
 
 #12. Testing the relation of recommended distance to the smoothended new case per population 
 #12-1Taking data from May 2020
-Case_data_2020_May=read.csv("owid-covid-data.csv",header=T,sep=",",stringsAsFactors = FALSE)
+Case_data_2020="https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv"
+Case_data_2020=read.csv(url(Case_data_2020))
+Case_data_2020_May<-Case_data_2020
 Case_data_2020_May_1<-Case_data_2020_May[1,]
 for (i in 1:nrow(Case_data_2020_May)){
   if(Case_data_2020_May$date[i]=="2020-05-08")
@@ -1151,7 +1172,7 @@ Cases1_May<-ggplot(data=Cases_df_May,aes(x=distance,y=Casevalue))+
   theme(
     text=element_text(size=12,family="Arial",color="black"))+
   xlab("Recommended distance (m)")+
-  ylab("Cases per million (smoothed)")
+  ylab("Cases per million (smoothed) \n on May 8 2020")
 
 Cases1_May
 
@@ -1169,13 +1190,13 @@ Reproduction1_May<-ggplot(data=Reproduction_df_May,aes(x=distance,y=Reproduction
   theme(
     text=element_text(size=12,family="Arial",color="black"))+
   xlab("Recommended distance (m)")+
-  ylab("Reproduction value")
+  ylab("Reproduction number \n on May 8 2020")
   
 
 Reproduction1_May
 
 #12-2 Taking data from Aug 2020
-Case_data_2020_Aug=read.csv("owid-covid-data.csv",header=T,sep=",",stringsAsFactors = FALSE)
+Case_data_2020_Aug=Case_data_2020
 Case_data_2020_Aug_1<-Case_data_2020_Aug[1,]
 for (i in 1:nrow(Case_data_2020_Aug)){
   if(Case_data_2020_Aug$date[i]=="2020-08-01")
@@ -1251,10 +1272,11 @@ Cases1_Aug<-ggplot(data=Cases_df_Aug,aes(x=distance,y=Casevalue))+
   theme_classic()+
   theme(
     axis.text=element_text(size=12,family="Arial",color="black"))+
+  ylim(0,300)+
   theme(
     text=element_text(size=12,family="Arial",color="black"))+
   xlab("Recommended distance (m)")+
-  ylab("Cases per million (smoothed)")
+  ylab("Cases per million (smoothed)\n on Aug 1 2020")
 
 Cases1_Aug
 
@@ -1271,8 +1293,9 @@ Reproduction1_Aug<-ggplot(data=Reproduction_df_Aug,aes(x=distance,y=Reproduction
     axis.text=element_text(size=12,family="Arial",color="black"))+
   theme(
     text=element_text(size=12,family="Arial",color="black"))+
+  ylim(0,2)+
   xlab("Recommended distance (m)")+
-  ylab("Reproduction value")
+  ylab("Reproduction number \n on Aug 1 2020")
 
 
 Reproduction1_Aug
@@ -1403,20 +1426,12 @@ summary(ANOVA_SARS)
 #plot(TukeyHSD(ANOVA_SARS,conf.level=.95))
 TukeyHSD(ANOVA_SARS,conf.level=.95)
 
-#13-11 transmission data (with 39 countries)
-growthrate_ANOVA_table=GrowthRate_UC_data_2
-growthrate_ANOVA_table$Metric.average.dist=as.factor(growthrate_ANOVA_table$Metric.average.dist)
-bartlett.test(Rpost_2_MCMC~Metric.average.dist,data=growthrate_ANOVA_table)
-#p-value of 0.9748, so we can perform the ANOVA test
-ANOVA_Growthrate <- aov(Rpost_2_MCMC~Metric.average.dist,data=growthrate_ANOVA_table)
-summary(ANOVA_Growthrate)
-#p-value of 0.579, so there is no statistical significance between R values and the recommended distance
 
-#13-12 transmission data (with 142 countries)
+#13-11 transmission data (with 142 countries)
 #May 2020
 bartlett.test(R~Metric.average.dist, data=R_tracking_data_May_2020_4)
 #p-value of 0.2979, so we can perform the ANOVA test
-ANOVA_Transmission_May <- aov(R~Metric.average.dist,data=R_tracking_data4_May_2020_4)
+ANOVA_Transmission_May <- aov(R~Metric.average.dist,data=R_tracking_data_May_2020_4)
 summary(ANOVA_Transmission_May)
 #p-value of 0.156, so there is no statistical significance between R values and the recommended distances 
 
@@ -1515,46 +1530,49 @@ summary(Populationdensity_GLM)
 range(DensityData$Population.density.2020)
 xDensity <- seq(2,2300,10)
 yDensity <- predict(Populationdensity_GLM,list(Population.density.2020=xDensity),type="response")
-par(mar=c(5,5,4,2))
 plot(DensityData$Population.density.2020,DensityData$Binomial.dist,pch=16,xlab=expression(paste("Population density (inhab/",km^2,")")),ylab="Probability to be at the highest\n recommended distance")
 lines(xDensity,yDensity)
 
 #15-5 Transmission rate (dataset #1, May 2020)
 R_tracking_data_May_2020_4$Binomial.dist=as.numeric(R_tracking_data_May_2020_4$Binomial.dist)
-Transmission_GLM_2_May=glm(formula=Binomial.dist~R,family=binomial,data=R_tracking_data_May_2020_4)
+Transmission_GLM_2_May=glm(formula=R~Binomial.dist,family=gaussian,data=R_tracking_data_May_2020_4)
 summary(Transmission_GLM_2_May)
 Anova(Transmission_GLM_2_May)
-xR <- seq(0,2.1,0.01)
-yR <- predict(Transmission_GLM_2_May, list(R=xR), type="response")
-plot(R_tracking_data_May_2020_4$R,R_tracking_data_May_2020_4$Binomial.dist,pch=16, xlab= "Transmission rate", ylab = "Probability to be at the\nhighest recommended distance")
+xR <- seq(0,1,0.01)
+yR <- predict(Transmission_GLM_2_May, list(Binomial.dist=xR), type="response")
+plot(R_tracking_data_May_2020_4$Binomial.dist,R_tracking_data_May_2020_4$R,pch=16, xlab= "", ylab = "Reproduction number \n on May 8 2020",xaxt='n')
+axis(side=1,at=c(0,1),labels=c("1m","Higher than 1m"))
 lines(xR, yR)
 
 #15-6 Transmission rate (dataset #1, Aug 2020)
 R_tracking_data_Aug_2020_4$Binomial.dist=as.numeric(R_tracking_data_Aug_2020_4$Binomial.dist)
-Transmission_GLM_2_Aug=glm(formula=Binomial.dist~R,family=binomial,data=R_tracking_data_Aug_2020_4)
+Transmission_GLM_2_Aug=glm(formula=R~Binomial.dist,family=gaussian,data=R_tracking_data_Aug_2020_4)
 summary(Transmission_GLM_2_Aug)
 Anova(Transmission_GLM_2_Aug)
-xR <-seq(0,2.1,0.01)
-yR <- predict(Transmission_GLM_2_Aug, list(R = xR),type="response")
-plot(R_tracking_data_Aug_2020_4$R, R_tracking_data_Aug_2020_4$Binomial.dist, pch = 16, xlab = "Transmission rate", ylab = "Probability to be at the\nhighest recommended distance")
+xR <-seq(0,1,0.01)
+yR <- predict(Transmission_GLM_2_Aug, list(Binomial.dist = xR),type="response")
+plot(R_tracking_data_Aug_2020_4$Binomial.dist, R_tracking_data_Aug_2020_4$R, pch = 16, xlab = "", ylab = "Reproduction number \n on Aug 1 2020",xaxt='n',ylim=c(0,2))
+axis(side=1,at=c(0,1),labels=c("1m","Higher than 1m"))
 lines(xR, yR)
 
 #15-7 Transmission rate (dataset #2, May 2020)
-Transmission_GLM_3_May=glm(formula=Binomial.dist~reproduction_rate,family=binomial,data=Case_data_2020_May_2)
+Transmission_GLM_3_May=glm(formula=reproduction_rate~Binomial.dist,family=gaussian,data=Case_data_2020_May_2)
 summary(Transmission_GLM_3_May)
 Anova(Transmission_GLM_3_May)
-xR <- seq(0,2.0,0.01)
-yR <- predict(Transmission_GLM_3_May,list(reproduction_rate=xR),type="response")
-plot(Case_data_2020_May_2$reproduction_rate,Case_data_2020_May_2$Binomial.dist,pch=16,xlab="Reproduction rate", ylab="Probability to be at the\nhighest recommended distance")
+xR <- seq(0,1,0.01)
+yR <- predict(Transmission_GLM_3_May,list(Binomial.dist=xR),type="response")
+plot(Case_data_2020_May_2$Binomial.dist,Case_data_2020_May_2$reproduction_rate,pch=16,xlab="", ylab="Reproduction number \n on May 8 2020",xaxt='n')
+axis(side=1,at=c(0,1),labels=c("1m","Higher than 1m"))
 lines(xR,yR)
 
 #15-8 Transmission rate (dataset #2, Aug 2020)
-Transmission_GLM_3_Aug=glm(formula=Binomial.dist~reproduction_rate,family=binomial,data=Case_data_2020_Aug_2)
+Transmission_GLM_3_Aug=glm(formula=reproduction_rate~Binomial.dist,family=gaussian,data=Case_data_2020_Aug_2)
 summary(Transmission_GLM_3_Aug)
 Anova(Transmission_GLM_3_Aug)
-xR <- seq(0,2.0,0.01)
-yR <- predict(Transmission_GLM_3_Aug,list(reproduction_rate=xR),type="response")
-plot(Case_data_2020_Aug_2$reproduction_rate,Case_data_2020_Aug_2$Binomial.dist,pch=16,xlab="Reproduction rate",ylab="Probability to be at the\nhighest recommended distance")
+xR <- seq(0,1,0.01)
+yR <- predict(Transmission_GLM_3_Aug,list(Binomial.dist=xR),type="response")
+plot(Case_data_2020_Aug_2$Binomial.dist,Case_data_2020_Aug_2$reproduction_rate,pch=16,xlab="",ylab="Reproduction number \n on Aug 1 2020",xaxt='n',ylim=c(0,2))
+axis(side=1,at=c(0,1),labels=c("1m","Higher than 1m"))
 lines(xR,yR)
 
 #Creating a linear model (for collecting the P value)
@@ -1562,26 +1580,25 @@ lines(xR,yR)
 #summary(Transmission_LM_2)
 #Anova(Transmission_LM_2)
 
-#15-9 Smoothed cases corrected for population (dataset #3, May 2020)
-Cases_GLM_May<-glm(formula=Binomial.dist~new_cases_smoothed_per_million,family=binomial,data=Case_data_2020_May_2)
+#15-9 Smoothed cases corrected for population (dataset #2, May 2020)
+Cases_GLM_May<-glm(formula=new_cases_smoothed_per_million~Binomial.dist,family=gaussian,data=Case_data_2020_May_2)
 summary(Cases_GLM_May)
 Anova(Cases_GLM_May)
-xCases_May <-seq(0,300,3)
-yCases_May <- predict(Cases_GLM_May, list(new_cases_smoothed_per_million = xCases_May),type="response")
-plot(Case_data_2020_May_2$new_cases_smoothed_per_million, Case_data_2020_May_2$Binomial.dist, pch = 16, xlab = "Cases per million(smoothed)", ylab = "Probability to be at the\nhighest recommended distance")
+xCases_May <-seq(0,1,0.01)
+yCases_May <- predict(Cases_GLM_May, list(Binomial.dist = xCases_May),type="response")
+plot(Case_data_2020_May_2$Binomial.dist, Case_data_2020_May_2$new_cases_smoothed_per_million, pch = 16, ylab = "Cases per million (smoothed)\n on May 8 2020", xlab = '',xaxt='n',ylim=c(0,300))
+axis(side =1, at=c(0,1),labels=c("1m","Higher than 1m"))
 lines(xCases_May, yCases_May)
 
-#15-10 Smoothed cases corrected for population (dataset #3, Aug 2020)
-Cases_GLM_Aug<-glm(formula=Binomial.dist~new_cases_smoothed_per_million,family=binomial,data=Case_data_2020_Aug_2)
+#15-10 Smoothed cases corrected for population (dataset #2, Aug 2020)
+Cases_GLM_Aug<-glm(formula=new_cases_smoothed_per_million~Binomial.dist,family=gaussian,data=Case_data_2020_Aug_2)
 summary(Cases_GLM_Aug)
 Anova(Cases_GLM_Aug)
-xCases_Aug <- seq(0,260,3)
-yCases_Aug <- predict(Cases_GLM_Aug,list(new_cases_smoothed_per_million=xCases_Aug),type="response")
-plot(Case_data_2020_Aug_2$new_cases_smoothed_per_million,Case_data_2020_Aug_2$Binomial.dist,pch=16,xlab="Cases per million(smoothed)", ylab= "Probability to be at the\nhighest recommended distance")
+xCases_Aug <- seq(0,1,0.01)
+yCases_Aug <- predict(Cases_GLM_Aug,list(Binomial.dist=xCases_Aug),type="response")
+plot(Case_data_2020_Aug_2$Binomial.dist,Case_data_2020_Aug_2$new_cases_smoothed_per_million,pch=16,ylab="cases per million (smoothed) \n on Aug 1 2020",xlab="",xaxt='n',ylim=c(0,300))
+axis(side = 1, at = c(0,1), labels = c("1m","Higher than 1m"))
 lines(xCases_Aug,yCases_Aug)
-
-Cases_LM_Aug<-lm(formula=new_cases_smoothed_per_million~Binomial.dist,data=Case_data_2020_Aug_2)
-summary(Cases_GLM_Aug)
 
 #16 Performing Binomial GLMM 
 
