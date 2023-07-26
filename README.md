@@ -9,7 +9,7 @@ Main script to perform the statistical analyses and prepare the figures
 
 ## Supporting files
 
-### COVID-Distance8.csv
+### COVID-Distance7.csv
 Compilation of the recommended distances for each country
 
 ### Table1-Sorokowska_revised.txt
