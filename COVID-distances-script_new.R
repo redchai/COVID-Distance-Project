@@ -1507,7 +1507,8 @@ lines(xPersonal,yPersonal)
 #intimate distance
 Intimatedistance_GLM=glm(formula=Binomial.dist~Intimate.distance.mean,family=binomial,data=PersDistRecDist)
 summary(Intimatedistance_GLM)
-#p-value of 0,170, so there is no statistical significance
+Anova(Intimatedistance_GLM)
+#p-value of 0.147, so there is no statistical significance
 
 #graph for intimate distance
 range(PersDistRecDist$Intimate.distance.mean)
@@ -1624,6 +1625,3 @@ Anova(distanceGLM3)
 cor_lan_temp <- distancetable2[,c('languagefactortemp','currencyfactortemp')]
 cor_lan_cur_df<-table(cor_lan_temp$languagefactortemp,cor_lan_temp$currencyfactortemp)
 CramerV(cor_lan_cur_df)
-
-
-
